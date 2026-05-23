@@ -104,7 +104,7 @@ Each submission is a directory per task containing a `result.json` and a `trajec
 
 **Review policy**
 - **Auto-eval**: We provide free review for auto-eval submissions.
-- **Human eval**: We have outsourced human evaluation for reviewing submissions. See the [pricing and review details](./data/schema_v2/HUMAN_EVALUATION_PRICING.md).
+- **Human eval**: We have outsourced human evaluation for reviewing submissions. Pricing: **$3,500 for the full set of 300 trajectories**, and **$10 per trajectory** for any subsequent submissions. See the [full pricing and review details](./data/schema_v2/HUMAN_EVALUATION_PRICING.md).
 - **Academic submissions**: For submissions from academia, the Online-Mind2Web team can still provide free evaluation. The turnaround time is usually longer than outsourced human evaluation, so please notify us **1-2 weeks in advance**.
 
 Examples for both formats are available under [`data/example/`](./data/example/) (`example_v1/` and `example_v2/`). For the full schema specification, action dictionary, validation rules, and migration guide from v1, see the [v2 schema README](./data/schema_v2/README.md). For submission instructions, leaderboard access, and submission status, visit the [Leaderboard](https://huggingface.co/spaces/osunlp/Online_Mind2Web_Leaderboard).
