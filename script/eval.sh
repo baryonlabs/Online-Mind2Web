@@ -11,7 +11,7 @@ modes=(
     "AgentTrek_eval"
 )
 
-base_dir="./data/example"
+base_dir="./data/example/example_v1"
 for mode in "${modes[@]}"; do
     python ./src/run.py \
         --mode "$mode" \
