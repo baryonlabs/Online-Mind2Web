@@ -22,4 +22,4 @@ For the full evaluation protocol, label definitions, criteria, edge cases, and p
 | **Full set** — human evaluation of all 300 Online-Mind2Web trajectories | **$3,500** |
 | **Subsequent submissions** — per trajectory, after the full set | **$10 / trajectory** |
 
-The pricing supports standardized multi-annotator review, QA verification, and consistent evaluation quality across leaderboard submissions.
+The pricing supports standardized multi-annotator review, QA verification, and consistent evaluation quality across leaderboard submissions. The fee is required to cover the significant manual effort involved in the human review process, to keep the benchmark tasks up to date, and a portion of the payment goes directly toward supporting further research from our group.
