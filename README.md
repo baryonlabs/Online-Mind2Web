@@ -30,6 +30,7 @@
 # Online-Mind2Web benchmark
 
 ## News
+* [05/23/2026] We introduce the [**v2 submission schema**](./data/schema_v2/README.md) to better facilitate human evaluation of your submissions. We have also outsourced human evaluation, which means your submissions can now be reviewed within a few days. See the [Submission](#submission) section for details.
 * [11/03/2025] We’ve updated 36 tasks that are no longer valid or involve websites with CAPTCHA verification. Please check out the updated tasks!
 * [07/08/2025] 🎉 Online-Mind2Web has been accepted to COLM 2025!
 * [05/11/2025] Check out our updates in the [paper](https://arxiv.org/abs/2504.01382).
@@ -47,6 +48,12 @@ We will regularly update Online-Mind2Web by replacing outdated or invalid tasks 
 To ensure fair comparisons, we will aim to keep the updated tasks on the same websites as before and with a similar reference length. Additionally, once agent performance saturates on Online-Mind2Web, we will also revise simple tasks to preserve its long-term value.
 
 ### Update History
+#### 2026/05/15
+<details>
+<summary>🧩 Updated Task IDs</summary>
+['199be0b54a436daee74247971fc684ee_051526', '1bc154377120ec15b18dbabdba49c741_051526', '78baf9dbe7c3532f7d7ef4cc22a7f065_051526', '85b284c18d7e78c9b5a9e074e7aa3b98_051526', '8ae510355d978424f490798f900bfa2c_051526', 'fc53ddd3421411a41c1020a3fdc84ec4_051526']
+</details>
+
 #### 2026/01/02
 <details>
 <summary>🧩 Updated Task IDs</summary>
@@ -87,6 +94,20 @@ Based on community feedback, we updated 36 tasks that were no longer valid or in
 <summary>🧩 Updated Task IDs</summary>
 ["c03ee2be3d73556ab789c0ad1cbd3451", "c181f903ec1107b850032c17cad88393", "2c8ef01a92c71ba9ef2e59bb17eea2b3", "d8e2a81fa621ce4737e5ea85671b630e", "63d6866fc000fcb1f153e07604bd1395", "199be0b54a436daee74247971fc684ee"]
 </details>
+
+
+# Submission
+
+We use the **v2 submission schema** (`online-mind2web-v2`) for trajectory submissions to the leaderboard. In v2, each step is a self-contained object that bundles its action, thought, screenshot, and URL together, making it straightforward for evaluation with complete step-level context.
+
+Each submission is a directory per task containing a `result.json` and a `trajectory/` folder with per-step screenshots. The `result.json` follows the v2 schema with fields including `schema_version`, `task`, `task_id`, `agent_final_answer`, `reference_length`, and an `action_history` of structured step objects.
+
+**Review policy**
+- **Auto-eval**: We provide free review for auto-eval submissions.
+- **Human eval**: We have outsourced human evaluation for reviewing submissions. See the [full pricing and review details](./data/schema_v2/HUMAN_EVALUATION_PRICING.md).
+- **Academic submissions**: For submissions from academia, the Online-Mind2Web team can still provide free evaluation. The turnaround time is usually longer than outsourced human evaluation, so please notify us **1-2 weeks in advance**.
+
+Examples for both formats are available under [`data/example/`](./data/example/) (`example_v1/` and `example_v2/`). For the full schema specification, action dictionary, validation rules, and migration guide from v1, see the [v2 schema README](./data/schema_v2/README.md). For submission instructions, leaderboard access, and submission status, visit the [Leaderboard](https://huggingface.co/spaces/osunlp/Online_Mind2Web_Leaderboard).
 
 # Automatic Evaluator via LLM-as-a-Judge (WebJudge)
 To enhance the reliability and scalability of the evaluation process in online environments, We propose a more reliable automatic evaluation method called **WebJudge**, which consists of three parts. (1) Key Point Identification: The model is prompted to identify several key points necessary for completing the task, based on the given instruction and task description. (2) Key Screenshot Identification: Important screenshots are selected from the agent’s trajectory to retain relevant visual evidence while discarding uninformative frames. (3) Outcome Judgment: Output the judgement result based on the task description, key points, key screenshots, and the action history. Our method preserves critical intermediate screenshots while mitigating the token overload issue.
