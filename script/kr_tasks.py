@@ -659,4 +659,447 @@ KR_TASKS = [
         "domain": "Other",
         "difficulty": "easy",
     },
+
+    # ====================================================================
+    # Baryon Desktop 꾸러미 매핑 — 추가 업무 영역
+    # (https://desktop.baryon.ai/packages.html)
+    # 아래는 기존 12개 도메인에 없던 Baryon 꾸러미 업무들을
+    # 실제 한국 웹사이트에서 수행할 수 있는 태스크로 정의한 것.
+    # domain 필드는 원본 12개 분류 중 가장 가까운 것을 사용하되,
+    # baryon_bundle 필드로 원본 꾸러미 slug를 추적한다.
+    # ====================================================================
+
+    # --- 법무 (legal) ---
+    {
+        "website": "https://www.law.go.kr",
+        "task_description": "국가법령정보센터에서 '주택임대차보호법'을 검색하여, 제8조(임대차기간)의 조문 본문을 확인할 수 있는 페이지를 열어라.",
+        "reference_length": 7,
+        "domain": "Government & Services",
+        "difficulty": "medium",
+        "baryon_bundle": "legal",
+    },
+    {
+        "website": "https://www.law.go.kr",
+        "task_description": "국가법령정보센터에서 '근로기준법'을 검색하여, 최근 개정일과 개정 이유를 확인할 수 있는 페이지를 열어라.",
+        "reference_length": 8,
+        "domain": "Government & Services",
+        "difficulty": "medium",
+        "baryon_bundle": "legal",
+    },
+    {
+        "website": "https://www.law.go.kr",
+        "task_description": "국가법령정보센터에서 '전자상거래법' 시행령 중 제20조의 조문과 관련 판례 목록을 확인할 수 있는 페이지를 열어라.",
+        "reference_length": 10,
+        "domain": "Government & Services",
+        "difficulty": "hard",
+        "baryon_bundle": "legal",
+    },
+
+    # --- 세무 (tax) ---
+    {
+        "website": "https://www.nts.go.kr",
+        "task_description": "국세청 홈택스에서 부가가치세 일반과세자 신고 기한과 납부 방법 안내 페이지를 열어, 신고서 작성 시 필요 항목을 확인하라.",
+        "reference_length": 9,
+        "domain": "Government & Services",
+        "difficulty": "medium",
+        "baryon_bundle": "tax",
+    },
+    {
+        "website": "https://www.hometax.go.kr",
+        "task_description": "홈택스에서 연말정산 간소화 서비스 페이지를 열어, 근로소득자가 조회할 수 있는 소득공제 항목 목록을 확인하라.",
+        "reference_length": 8,
+        "domain": "Government & Services",
+        "difficulty": "medium",
+        "baryon_bundle": "tax",
+    },
+    {
+        "website": "https://www.nts.go.kr",
+        "task_description": "국세청 홈택스에서 세금계산서 진위확인 서비스 페이지를 열어, 확인 절차의 첫 단계 입력 항목을 확인하라.",
+        "reference_length": 7,
+        "domain": "Government & Services",
+        "difficulty": "medium",
+        "baryon_bundle": "tax",
+    },
+
+    # --- 재무 (finance) ---
+    {
+        "website": "https://www.bok.or.kr",
+        "task_description": "한국은행 경제통계시스템에서 최근 1년간 소비자물가상승률(CPI) 월별 데이터 조회 페이지를 열어라.",
+        "reference_length": 9,
+        "domain": "Finance & Investment",
+        "difficulty": "medium",
+        "baryon_bundle": "finance",
+    },
+    {
+        "website": "https://www.fss.or.kr",
+        "task_description": "금융감독원 웹사이트에서 '예금자보호법' 안내 페이지를 열어, 보호한도와 보호대상 예금의 종류를 확인하라.",
+        "reference_length": 8,
+        "domain": "Finance & Investment",
+        "difficulty": "medium",
+        "baryon_bundle": "finance",
+    },
+    {
+        "website": "https://www.bok.or.kr",
+        "task_description": "한국은행 경제통계시스템에서 최근 분기 GDP 성장률(전기대비) 데이터를 조회할 수 있는 페이지를 열어라.",
+        "reference_length": 10,
+        "domain": "Finance & Investment",
+        "difficulty": "hard",
+        "baryon_bundle": "finance",
+    },
+
+    # --- 영업 / CRM (sales) ---
+    {
+        "website": "https://crm.withncorp.com",
+        "task_description": "영업관리 CRM에서 '보고서' 메뉴를 열어, 최근 1주일 이내에 작성된 영업활동 보고서 목록을 확인하라.",
+        "reference_length": 7,
+        "domain": "Jobs & Careers",
+        "difficulty": "medium",
+        "baryon_bundle": "sales",
+    },
+    {
+        "website": "https://www.mangoplate.com",
+        "task_description": "망고플레이트에서 서울특별시 강남구 삼성동 근처 식당 중 평점 4점 이상인 식당의 첫 번째 상세 페이지를 열어, 리뷰와 영업시간을 확인하라.",
+        "reference_length": 7,
+        "domain": "Shopping & E-Commerce",
+        "difficulty": "medium",
+        "baryon_bundle": "sales",
+    },
+
+    # --- 마케팅 (marketing) ---
+    {
+        "website": "https://ads.google.com",
+        "task_description": "Google Ads에서 새 캠페인 만들기 페이지를 열어, 검색 광고 캠페인의 첫 설정 단계(목표 선택) 화면을 확인하라.",
+        "reference_length": 8,
+        "domain": "Other",
+        "difficulty": "medium",
+        "baryon_bundle": "marketing",
+    },
+    {
+        "website": "https://business.facebook.com",
+        "task_description": "Meta Business Suite에서 인스타그램 계정의 최근 7일간 도달 수와 참여 수를 확인할 수 있는 인사이트 페이지를 열어라.",
+        "reference_length": 9,
+        "domain": "Other",
+        "difficulty": "medium",
+        "baryon_bundle": "marketing",
+    },
+    {
+        "website": "https://www.nihcm.go.kr",
+        "task_description": "국립보건연구원 웹사이트에서 보건의료 데이터 통계 조회 페이지를 열어, 최근 연도별 건강검진 수검률 데이터를 확인하라.",
+        "reference_length": 10,
+        "domain": "Health & Medical",
+        "difficulty": "hard",
+        "baryon_bundle": "marketing",
+    },
+
+    # --- 고객지원 / CS (support) ---
+    {
+        "website": "https://www.kt.com",
+        "task_description": "KT 고객지원 페이지에서 인터넷 장애 신고 접수 페이지를 열어, 장애 신고 시 입력해야 할 필수 항목을 확인하라.",
+        "reference_length": 7,
+        "domain": "Other",
+        "difficulty": "medium",
+        "baryon_bundle": "support",
+    },
+    {
+        "website": "https://www.skt.com",
+        "task_description": "SKT 고객지원 페이지에서 휴대폰 요금제 변경 안내 페이지를 열어, 현재 가장 저렴한 5G 요금제의 월정액을 확인하라.",
+        "reference_length": 8,
+        "domain": "Other",
+        "difficulty": "medium",
+        "baryon_bundle": "support",
+    },
+    {
+        "website": "https://help.naver.com",
+        "task_description": "네이버 고객센터에서 '아이디 찾기' 관련 도움말 페이지를 열어, 아이디 찾기 절차의 첫 단계를 확인하라.",
+        "reference_length": 6,
+        "domain": "Other",
+        "difficulty": "easy",
+        "baryon_bundle": "support",
+    },
+
+    # --- 이커머스 운영 (ecommerce) ---
+    {
+        "website": "https://www.coupang.com",
+        "task_description": "쿠팡에서 '스마트워치'를 검색하고, 검색 결과 중 로켓배송 가능한 상품 중 가격 5만원 이하, 별점 4점 이상인 상품의 첫 번째 상세 페이지를 열어라.",
+        "reference_length": 8,
+        "domain": "Shopping & E-Commerce",
+        "difficulty": "medium",
+        "baryon_bundle": "ecommerce",
+    },
+    {
+        "website": "https://sell.smartstore.naver.com",
+        "task_description": "네이버 스마트스토어 판매자 센터에서 '상품 등록' 페이지를 열어, 상품 등록 시 필수 입력 항목 목록을 확인하라.",
+        "reference_length": 8,
+        "domain": "Shopping & E-Commerce",
+        "difficulty": "medium",
+        "baryon_bundle": "ecommerce",
+    },
+    {
+        "website": "https://www.coupang.com",
+        "task_description": "쿠팡에서 '아기 기저귀'를 검색하고, 검색 결과 중 정기배송 가능한 상품 중 가장 저렴한 상품을 장바구니에 추가하라.",
+        "reference_length": 7,
+        "domain": "Shopping & E-Commerce",
+        "difficulty": "medium",
+        "baryon_bundle": "ecommerce",
+    },
+    {
+        "website": "https://browse.gmarket.co.kr",
+        "task_description": "G마케이트에서 '가습기'를 검색하고, 검색 결과 중 무료배송 상품 중 가격이 3만원 이하이고 스티치 등급이 높은 상품의 첫 번째 상세 페이지를 열어라.",
+        "reference_length": 9,
+        "domain": "Shopping & E-Commerce",
+        "difficulty": "medium",
+        "baryon_bundle": "ecommerce",
+    },
+
+    # --- 물류 / 유통 (logistics) ---
+    {
+        "website": "https://www.cjlogistics.com",
+        "task_description": "CJ대한통운 웹사이트에서 운송장 조회 페이지를 열어, 운송장 번호 입력 필드와 배송 추적 절차를 확인하라.",
+        "reference_length": 6,
+        "domain": "Travel & Transportation",
+        "difficulty": "easy",
+        "baryon_bundle": "logistics",
+    },
+    {
+        "website": "https://www.cjlogistics.com",
+        "task_description": "CJ대한통운 웹사이트에서 택배 요금 계산 페이지를 열어, 서울에서 부산까지 3kg 소포의 배송 요금을 조회하는 화면을 확인하라.",
+        "reference_length": 8,
+        "domain": "Travel & Transportation",
+        "difficulty": "medium",
+        "baryon_bundle": "logistics",
+    },
+    {
+        "website": "https://www.lottelogistics.com",
+        "task_description": "롯데글로벌로지스틱스 웹사이트에서 화물 추적 서비스 페이지를 열어, 화물 추적 시 필요한 입력 항목을 확인하라.",
+        "reference_length": 7,
+        "domain": "Travel & Transportation",
+        "difficulty": "medium",
+        "baryon_bundle": "logistics",
+    },
+
+    # --- 번역 / 현지화 (translation) ---
+    {
+        "website": "https://dict.naver.com",
+        "task_description": "네이버 사전에서 'artificial intelligence'를 영한 사전으로 검색하고, 첫 번째 검색 결과의 상세 정의와 예문 페이지를 열어라.",
+        "reference_length": 5,
+        "domain": "Education",
+        "difficulty": "easy",
+        "baryon_bundle": "translation",
+    },
+    {
+        "website": "https://dict.naver.com",
+        "task_description": "네이버 사전에서 '미안하다'를 한영 사전으로 검색하고, 검색 결과 중 가장 많은 추천을 받은 번역 예문의 상세 페이지를 열어라.",
+        "reference_length": 6,
+        "domain": "Education",
+        "difficulty": "easy",
+        "baryon_bundle": "translation",
+    },
+    {
+        "website": "https://terms.naver.com",
+        "task_description": "네이버 용어사전에서 '블록체인'을 검색하고, IT/컴퓨터 분야 사전 중 첫 번째 항목의 상세 정의 페이지를 열어라.",
+        "reference_length": 6,
+        "domain": "Education",
+        "difficulty": "easy",
+        "baryon_bundle": "translation",
+    },
+
+    # --- 제품기획 (product) ---
+    {
+        "website": "https://www.betterworks.com",
+        "task_description": "BetterWorks 웹사이트에서 OKR(목표 및 핵심결과) 관리 제품의 기능 소개 페이지를 열어, 핵심 기능 3가지를 확인하라.",
+        "reference_length": 6,
+        "domain": "Technology",
+        "difficulty": "easy",
+        "baryon_bundle": "product",
+    },
+    {
+        "website": "https://www.figma.com",
+        "task_description": "Figma 웹사이트에서 '디자인 시스템' 템플릿 갤러리 페이지를 열어, 가장 인기 있는 무료 UI 킷의 첫 번째 상세 페이지를 열어라.",
+        "reference_length": 7,
+        "domain": "Technology",
+        "difficulty": "medium",
+        "baryon_bundle": "product",
+    },
+
+    # --- 연구 (research) ---
+    {
+        "website": "https://www.riss.kr",
+        "task_description": "RISS(학술연구정보서비스)에서 '대형언어모델'을 검색하고, 최근 2년 이내에 출간된 학위논문 중 첫 번째 논문의 상세 정보 페이지를 열어라.",
+        "reference_length": 7,
+        "domain": "Education",
+        "difficulty": "medium",
+        "baryon_bundle": "research",
+    },
+    {
+        "website": "https://www.riss.kr",
+        "task_description": "RISS에서 '부동산 가격 예측'을 검색하고, 검색 결과 중 학술논문 탭의 첫 번째 논문 상세 페이지를 열어, 초록과 저자 정보를 확인하라.",
+        "reference_length": 8,
+        "domain": "Education",
+        "difficulty": "medium",
+        "baryon_bundle": "research",
+    },
+    {
+        "website": "https://www.dbpia.co.kr",
+        "task_description": "DBpia에서 '강화학습'을 검색하고, 검색 결과 중 최근 1년 이내에 등록된 논문 중 첫 번째 논문의 상세 페이지를 열어라.",
+        "reference_length": 7,
+        "domain": "Education",
+        "difficulty": "medium",
+        "baryon_bundle": "research",
+    },
+    {
+        "website": "https://www.scienceon.kr",
+        "task_description": "ScienceON에서 '탄소중립'을 검색하고, 검색 결과 중 연구보고서 탭의 첫 번째 항목 상세 페이지를 열어, 연구기관과 발행일을 확인하라.",
+        "reference_length": 8,
+        "domain": "Education",
+        "difficulty": "medium",
+        "baryon_bundle": "research",
+    },
+
+    # --- 인사 / HR (hr) ---
+    {
+        "website": "https://www.saramin.co.kr",
+        "task_description": "사람인에서 '인사담당자' 직무 채용 공고를 검색하고, 검색 결과 중 서울 근무, 경력 5년 이상 조건으로 필터링한 첫 번째 공고 상세 페이지를 열어라.",
+        "reference_length": 9,
+        "domain": "Jobs & Careers",
+        "difficulty": "medium",
+        "baryon_bundle": "hr",
+    },
+    {
+        "website": "https://www.jobkorea.co.kr",
+        "task_description": "잡코리아에서 '인사팀' 직무 채용 공고 중 대기업, 경력 3년 이상 조건으로 검색하고, 검색 결과의 첫 번째 공고 상세 페이지를 열어라.",
+        "reference_length": 10,
+        "domain": "Jobs & Careers",
+        "difficulty": "hard",
+        "baryon_bundle": "hr",
+    },
+
+    # --- 디자인 (design) ---
+    {
+        "website": "https://www.behance.net",
+        "task_description": "Behance에서 '모바일 앱 UI'를 검색하고, 검색 결과 중 최근 1개월 이내에 게시된 프로젝트 중 가장 추천수가 많은 프로젝트의 상세 페이지를 열어라.",
+        "reference_length": 7,
+        "domain": "Entertainment & Media",
+        "difficulty": "medium",
+        "baryon_bundle": "design",
+    },
+    {
+        "website": "https://www.figma.com",
+        "task_description": "Figma 커뮤니티에서 '아이콘 세트'를 검색하고, 검색 결과 중 무료 다운로드 가능한 파일 중 가장 인기 있는(복제수 많은) 파일의 상세 페이지를 열어라.",
+        "reference_length": 7,
+        "domain": "Technology",
+        "difficulty": "medium",
+        "baryon_bundle": "design",
+    },
+    {
+        "website": "https://www.unsplash.com",
+        "task_description": "Unsplash에서 '서울 도시'를 검색하고, 검색 결과 중 가장 다운로드 수가 많은 사진의 상세 페이지를 열어, 작가 정보와 해상도를 확인하라.",
+        "reference_length": 6,
+        "domain": "Entertainment & Media",
+        "difficulty": "easy",
+        "baryon_bundle": "design",
+    },
+
+    # --- 데이터 분석 (data) ---
+    {
+        "website": "https://kosis.kr",
+        "task_description": "국가통계포털(KOSIS)에서 '인구총조사' 메뉴를 열어, 최근 조사 기준 서울특별시 인구수 데이터 조회 페이지를 열어라.",
+        "reference_length": 9,
+        "domain": "Government & Services",
+        "difficulty": "medium",
+        "baryon_bundle": "data",
+    },
+    {
+        "website": "https://kosis.kr",
+        "task_description": "국가통계포털(KOSIS)에서 '경제활동인구조사' 통계표 중 최근 분기 실업률 데이터 조회 페이지를 열어라.",
+        "reference_length": 10,
+        "domain": "Government & Services",
+        "difficulty": "hard",
+        "baryon_bundle": "data",
+    },
+    {
+        "website": "https://www.data.go.kr",
+        "task_description": "공공데이터포털에서 '부동산 실거래가' 데이터셋을 검색하고, 검색 결과 중 가장 최근에 업데이트된 데이터셋의 상세 페이지를 열어라.",
+        "reference_length": 8,
+        "domain": "Government & Services",
+        "difficulty": "medium",
+        "baryon_bundle": "data",
+    },
+    {
+        "website": "https://www.data.go.kr",
+        "task_description": "공공데이터포털에서 '대기오염' 키워드로 API를 검색하고, 검색 결과 중 조회수가 가장 높은 API의 상세 페이지를 열어, 제공 기관을 확인하라.",
+        "reference_length": 8,
+        "domain": "Government & Services",
+        "difficulty": "medium",
+        "baryon_bundle": "data",
+    },
+
+    # --- 학생 (student) ---
+    {
+        "website": "https://www.acmicpc.net",
+        "task_description": "백준 온라인 저지에서 'DP' 태그가 달린 문제 중 난이도 골드 1인 문제 중 가장 정답 수가 많은 문제의 상세 페이지를 열어라.",
+        "reference_length": 7,
+        "domain": "Education",
+        "difficulty": "medium",
+        "baryon_bundle": "student",
+    },
+    {
+        "website": "https://www.acmicpc.net",
+        "task_description": "백준 온라인 저지에서 '그래프 탐색' 태그가 달린 문제 중 난이도 실버 2 이하인 문제의 첫 번째 상세 페이지를 열어라.",
+        "reference_length": 6,
+        "domain": "Education",
+        "difficulty": "easy",
+        "baryon_bundle": "student",
+    },
+    {
+        "website": "https://www.inflearn.com",
+        "task_description": "인프런에서 '코딩테스트' 강의를 검색하고, 검색 결과 중 무료 강의 중 평점 4.5 이상인 강의의 첫 번째 상세 페이지를 열어라.",
+        "reference_length": 7,
+        "domain": "Education",
+        "difficulty": "medium",
+        "baryon_bundle": "student",
+    },
+
+    # --- 교육 / 이러닝 (education) ---
+    {
+        "website": "https://www.kmooc.kr",
+        "task_description": "K-MOOC에서 '인공지능' 강좌를 검색하고, 검색 결과 중 현재 수강 신청 가능한 강좌의 첫 번째 상세 페이지를 열어, 강의 개요를 확인하라.",
+        "reference_length": 7,
+        "domain": "Education",
+        "difficulty": "medium",
+        "baryon_bundle": "education",
+    },
+    {
+        "website": "https://www.kmooc.kr",
+        "task_description": "K-MOOC에서 '데이터 과학' 강좌를 검색하고, 검색 결과 중 자막이 한국어인 강좌 중 첫 번째 상세 페이지를 열어라.",
+        "reference_length": 8,
+        "domain": "Education",
+        "difficulty": "medium",
+        "baryon_bundle": "education",
+    },
+
+    # --- 운영자 (operator) ---
+    {
+        "website": "https://www.amazonaws.com",
+        "task_description": "AWS 웹사이트에서 EC2 요금 페이지를 열어, 서울 리전의 t3.medium 인스턴스 온디맨드 시간당 요금을 확인하라.",
+        "reference_length": 8,
+        "domain": "Technology",
+        "difficulty": "medium",
+        "baryon_bundle": "operator",
+    },
+    {
+        "website": "https://www.cloudflare.com",
+        "task_description": "Cloudflare 웹사이트에서 'Pages' 제품의 기능 소개 페이지를 열어, 무료 플랜에서 제공되는 기능 목록을 확인하라.",
+        "reference_length": 6,
+        "domain": "Technology",
+        "difficulty": "easy",
+        "baryon_bundle": "operator",
+    },
+    {
+        "website": "https://www.vercel.com",
+        "task_description": "Vercel 웹사이트에서 요금제 페이지를 열어, Pro 플랜의 월별 가격과 포함된 대역폭 한도를 확인하라.",
+        "reference_length": 6,
+        "domain": "Technology",
+        "difficulty": "easy",
+        "baryon_bundle": "operator",
+    },
 ]

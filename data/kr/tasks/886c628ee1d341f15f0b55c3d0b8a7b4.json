@@ -1,0 +1,9 @@
+{
+  "website": "https://www.behance.net",
+  "task_description": "Behance에서 '모바일 앱 UI'를 검색하고, 검색 결과 중 최근 1개월 이내에 게시된 프로젝트 중 가장 추천수가 많은 프로젝트의 상세 페이지를 열어라.",
+  "reference_length": 7,
+  "domain": "Entertainment & Media",
+  "difficulty": "medium",
+  "baryon_bundle": "design",
+  "task_id": "886c628ee1d341f15f0b55c3d0b8a7b4"
+}

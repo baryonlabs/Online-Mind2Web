@@ -1,0 +1,9 @@
+{
+  "website": "https://www.dbpia.co.kr",
+  "task_description": "DBpia에서 '강화학습'을 검색하고, 검색 결과 중 최근 1년 이내에 등록된 논문 중 첫 번째 논문의 상세 페이지를 열어라.",
+  "reference_length": 7,
+  "domain": "Education",
+  "difficulty": "medium",
+  "baryon_bundle": "research",
+  "task_id": "ae119f3532de42df415104196cc010bd"
+}

@@ -1,0 +1,9 @@
+{
+  "website": "https://dict.naver.com",
+  "task_description": "네이버 사전에서 '미안하다'를 한영 사전으로 검색하고, 검색 결과 중 가장 많은 추천을 받은 번역 예문의 상세 페이지를 열어라.",
+  "reference_length": 6,
+  "domain": "Education",
+  "difficulty": "easy",
+  "baryon_bundle": "translation",
+  "task_id": "befd75334dd07503befb381354076798"
+}

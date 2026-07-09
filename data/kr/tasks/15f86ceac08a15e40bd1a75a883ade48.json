@@ -1,0 +1,9 @@
+{
+  "website": "https://www.vercel.com",
+  "task_description": "Vercel 웹사이트에서 요금제 페이지를 열어, Pro 플랜의 월별 가격과 포함된 대역폭 한도를 확인하라.",
+  "reference_length": 6,
+  "domain": "Technology",
+  "difficulty": "easy",
+  "baryon_bundle": "operator",
+  "task_id": "15f86ceac08a15e40bd1a75a883ade48"
+}

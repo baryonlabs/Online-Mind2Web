@@ -1,0 +1,9 @@
+{
+  "website": "https://www.law.go.kr",
+  "task_description": "국가법령정보센터에서 '근로기준법'을 검색하여, 최근 개정일과 개정 이유를 확인할 수 있는 페이지를 열어라.",
+  "reference_length": 8,
+  "domain": "Government & Services",
+  "difficulty": "medium",
+  "baryon_bundle": "legal",
+  "task_id": "65d90c32719f92f75ac6f63eae29f2ab"
+}

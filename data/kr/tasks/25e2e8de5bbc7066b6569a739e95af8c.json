@@ -1,0 +1,9 @@
+{
+  "website": "https://www.inflearn.com",
+  "task_description": "인프런에서 '코딩테스트' 강의를 검색하고, 검색 결과 중 무료 강의 중 평점 4.5 이상인 강의의 첫 번째 상세 페이지를 열어라.",
+  "reference_length": 7,
+  "domain": "Education",
+  "difficulty": "medium",
+  "baryon_bundle": "student",
+  "task_id": "25e2e8de5bbc7066b6569a739e95af8c"
+}

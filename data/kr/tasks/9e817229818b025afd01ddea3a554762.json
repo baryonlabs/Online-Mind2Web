@@ -1,0 +1,9 @@
+{
+  "website": "https://www.scienceon.kr",
+  "task_description": "ScienceON에서 '탄소중립'을 검색하고, 검색 결과 중 연구보고서 탭의 첫 번째 항목 상세 페이지를 열어, 연구기관과 발행일을 확인하라.",
+  "reference_length": 8,
+  "domain": "Education",
+  "difficulty": "medium",
+  "baryon_bundle": "research",
+  "task_id": "9e817229818b025afd01ddea3a554762"
+}

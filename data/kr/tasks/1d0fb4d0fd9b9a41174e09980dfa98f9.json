@@ -1,0 +1,9 @@
+{
+  "website": "https://www.kt.com",
+  "task_description": "KT 고객지원 페이지에서 인터넷 장애 신고 접수 페이지를 열어, 장애 신고 시 입력해야 할 필수 항목을 확인하라.",
+  "reference_length": 7,
+  "domain": "Other",
+  "difficulty": "medium",
+  "baryon_bundle": "support",
+  "task_id": "1d0fb4d0fd9b9a41174e09980dfa98f9"
+}

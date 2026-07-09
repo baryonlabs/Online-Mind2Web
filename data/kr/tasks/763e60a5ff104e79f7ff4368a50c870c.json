@@ -1,0 +1,9 @@
+{
+  "website": "https://www.unsplash.com",
+  "task_description": "Unsplash에서 '서울 도시'를 검색하고, 검색 결과 중 가장 다운로드 수가 많은 사진의 상세 페이지를 열어, 작가 정보와 해상도를 확인하라.",
+  "reference_length": 6,
+  "domain": "Entertainment & Media",
+  "difficulty": "easy",
+  "baryon_bundle": "design",
+  "task_id": "763e60a5ff104e79f7ff4368a50c870c"
+}

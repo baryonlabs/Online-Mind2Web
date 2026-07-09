@@ -1,0 +1,9 @@
+{
+  "website": "https://www.riss.kr",
+  "task_description": "RISS에서 '부동산 가격 예측'을 검색하고, 검색 결과 중 학술논문 탭의 첫 번째 논문 상세 페이지를 열어, 초록과 저자 정보를 확인하라.",
+  "reference_length": 8,
+  "domain": "Education",
+  "difficulty": "medium",
+  "baryon_bundle": "research",
+  "task_id": "9394378b420c35fbc0e63390b0c4d828"
+}

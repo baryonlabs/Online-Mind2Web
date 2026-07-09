@@ -6,9 +6,10 @@
 
 원본 Online-Mind2Web이 영어권 136개 글로벌 웹사이트 300개 태스크로 구성되어 있는 것과 달리, 이 확장은 한국 사용자가 실제로 사용하는 주요 웹사이트들을 추가하여 웹 에이전트의 한국 환경 대응 능력을 평가합니다.
 
-- **태스크 수**: 86개
-- **고유 웹사이트 수**: 34개
+- **태스크 수**: 136개
+- **고유 웹사이트 수**: 64개
 - **도메인**: 원본 12개 도메인 분류를 그대로 따름
+- **Baryon 꾸러미 매핑**: [Baryon Desktop](https://desktop.baryon.ai/packages.html)의 업무별 꾸러미에 대응하는 태스크 포함 (`baryon_bundle` 필드로 추적)
 - **스키마**: 원본 v2 스키마(`online-mind2web-v2`)와 호환
 
 ## 디렉토리 구조
@@ -39,40 +40,63 @@ data/kr/
 ### 도메인별
 | 도메인 | 태스크 수 |
 |---|---|
-| Shopping & E-Commerce | 10 |
+| Education | 18 |
+| Government & Services | 16 |
+| Shopping & E-Commerce | 15 |
+| Other | 13 |
+| Travel & Transportation | 11 |
+| Technology | 11 |
+| Jobs & Careers | 11 |
+| Finance & Investment | 11 |
+| Entertainment & Media | 9 |
 | Housing & Real Estate | 8 |
-| Travel & Transportation | 8 |
-| Finance & Investment | 8 |
-| Jobs & Careers | 8 |
-| Other | 8 |
-| Entertainment & Media | 7 |
+| Health & Medical | 7 |
 | Food & Recipes | 6 |
-| Government & Services | 6 |
-| Education | 6 |
-| Health & Medical | 6 |
-| Technology | 5 |
 
 ### 난이도별
 | 난이도 | 태스크 수 | 기준 |
 |---|---|---|
-| easy | 17 | reference_length ≤ 5 |
-| medium | 58 | 6 ≤ reference_length ≤ 10 |
-| hard | 11 | reference_length ≥ 11 |
+| easy | 27 | reference_length ≤ 5 |
+| medium | 93 | 6 ≤ reference_length ≤ 10 |
+| hard | 16 | reference_length ≥ 11 |
 
 ### 웹사이트별 (상위)
 | 웹사이트 | 태스크 수 | 도메인 |
 |---|---|---|
 | finance.naver.com | 7 | Finance & Investment |
 | 10000recipe.com | 6 | Food & Recipes |
-| coupang.com | 4 | Shopping & E-Commerce |
+| coupang.com | 6 | Shopping & E-Commerce |
+| inflearn.com | 5 | Education |
 | movie.naver.com | 4 | Entertainment & Media |
+| saramin.co.kr | 4 | Jobs & Careers |
+| nts.go.kr | 4 | Government & Services |
+| jobkorea.co.kr | 4 | Jobs & Careers |
 | flight.naver.com | 4 | Travel & Transportation |
-| inflearn.com | 4 | Education |
-| letskorail.com | 3 | Travel & Transportation |
-| land.naver.com | 3 | Housing & Real Estate |
-| saramin.co.kr | 3 | Jobs & Careers |
-| jobkorea.co.kr | 3 | Jobs & Careers |
+| law.go.kr | 3 | Government & Services |
 | ... | ... | ... |
+
+### Baryon 꾸러미 매핑
+[Baryon Desktop](https://desktop.baryon.ai/packages.html)의 업무별 꾸러미에 대응하는 태스크들. 각 태스크의 `baryon_bundle` 필드로 원본 꾸러미 slug를 추적.
+
+| Baryon 꾸러미 | 태스크 수 | 대표 사이트 |
+|---|---|---|
+| legal (법무) | 3 | law.go.kr |
+| tax (세무) | 3 | nts.go.kr, hometax.go.kr |
+| finance (재무) | 3 | bok.or.kr, fss.or.kr |
+| sales (영업) | 2 | mangoplate.com |
+| marketing (마케팅) | 3 | ads.google.com, business.facebook.com |
+| support (고객지원) | 3 | kt.com, skt.com, help.naver.com |
+| ecommerce (이커머스운영) | 4 | coupang.com, gmarket.co.kr, smartstore.naver.com |
+| logistics (물류) | 3 | cjlogistics.com, lottelogistics.com |
+| translation (번역) | 3 | dict.naver.com, terms.naver.com |
+| product (제품기획) | 2 | figma.com |
+| research (연구) | 4 | riss.kr, dbpia.co.kr, scienceon.kr |
+| hr (인사) | 2 | saramin.co.kr, jobkorea.co.kr |
+| design (디자인) | 3 | behance.net, figma.com, unsplash.com |
+| data (데이터분석) | 4 | kosis.kr, data.go.kr |
+| student (학생) | 3 | acmicpc.net, inflearn.com |
+| education (교육/이러닝) | 2 | kmooc.kr |
+| operator (운영자) | 3 | aws.amazon.com, cloudflare.com, vercel.com |
 
 분포 통계 실행:
 ```bash
@@ -101,41 +125,70 @@ python3 script/kr_stats.py
 - letskorail.com (레츠코레일)
 - flight.naver.com (네이버 항공권)
 - bustago.or.kr (버스타고)
+- cjlogistics.com (CJ대한통운) — 물류
+- lottelogistics.com (롯데글로벌로지스틱스) — 물류
 
 ### 금융 (Finance & Investment)
 - finance.naver.com (네이버 증권)
 - kbanknow.com (카카오뱅크)
+- bok.or.kr (한국은행) — 재무
+- fss.or.kr (금융감독원) — 재무
 
 ### 건강/의료 (Health & Medical)
 - amc.seoul.kr (서울아산병원)
 - samsunghospital.com (삼성서울병원)
 - naver.com 건강 (네이버 건강)
+- nihcm.go.kr (국립보건연구원)
 
 ### 식품/레시피 (Food & Recipes)
 - 10000recipe.com (만개의 레시피)
+- mangoplate.com (망고플레이트) — 영업
 
 ### 엔터테인먼트 (Entertainment & Media)
 - movie.naver.com (네이버 영화)
 - comic.naver.com (네이버 웹툰)
+- behance.net (비핸스) — 디자인
+- unsplash.com (언스플래시) — 디자인
 
 ### 정부/공공서비스 (Government & Services)
 - gov.kr (정부24)
-- nts.go.kr (국세청 홈택스)
+- nts.go.kr (국세청 홈택스) — 세무
+- hometax.go.kr (홈택스) — 세무
 - epeople.go.kr (국민신문고)
+- law.go.kr (국가법령정보센터) — 법무
+- kosis.kr (국가통계포털) — 데이터분석
+- data.go.kr (공공데이터포털) — 데이터분석
 
 ### 기술 (Technology)
 - samsung.com/sec (삼성전자)
 - lge.co.kr (LG전자)
+- figma.com (피그마) — 디자인/제품기획
+- aws.amazon.com (AWS) — 운영자
+- cloudflare.com (Cloudflare) — 운영자
+- vercel.com (Vercel) — 운영자
+- betterworks.com (BetterWorks) — 제품기획
 
 ### 교육 (Education)
 - inflearn.com (인프런)
 - credu.com (크레듀)
+- riss.kr (RISS 학술연구정보서비스) — 연구
+- dbpia.co.kr (DBpia) — 연구
+- scienceon.kr (ScienceON) — 연구
+- kmooc.kr (K-MOOC) — 교육/이러닝
+- acmicpc.net (백준 온라인 저지) — 학생
+- dict.naver.com (네이버 사전) — 번역
 
 ### 기타 (Other)
 - map.naver.com (네이버 지도)
 - news.naver.com (네이버 뉴스)
-- terms.naver.com (네이버 사전)
+- terms.naver.com (네이버 용어사전) — 번역
 - search.naver.com (네이버 검색)
+- kt.com (KT 고객지원) — 고객지원
+- skt.com (SKT 고객지원) — 고객지원
+- help.naver.com (네이버 고객센터) — 고객지원
+- ads.google.com (Google Ads) — 마케팅
+- business.facebook.com (Meta Business Suite) — 마케팅
+- sell.smartstore.naver.com (네이버 스마트스토어 판매자센터) — 이커머스운영
 
 ## 사용 방법
 

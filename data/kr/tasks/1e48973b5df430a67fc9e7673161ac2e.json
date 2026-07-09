@@ -1,0 +1,9 @@
+{
+  "website": "https://www.cjlogistics.com",
+  "task_description": "CJ대한통운 웹사이트에서 운송장 조회 페이지를 열어, 운송장 번호 입력 필드와 배송 추적 절차를 확인하라.",
+  "reference_length": 6,
+  "domain": "Travel & Transportation",
+  "difficulty": "easy",
+  "baryon_bundle": "logistics",
+  "task_id": "1e48973b5df430a67fc9e7673161ac2e"
+}

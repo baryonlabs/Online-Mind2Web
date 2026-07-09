@@ -1,0 +1,9 @@
+{
+  "website": "https://www.cloudflare.com",
+  "task_description": "Cloudflare 웹사이트에서 'Pages' 제품의 기능 소개 페이지를 열어, 무료 플랜에서 제공되는 기능 목록을 확인하라.",
+  "reference_length": 6,
+  "domain": "Technology",
+  "difficulty": "easy",
+  "baryon_bundle": "operator",
+  "task_id": "ab4eb8d7677bd152f4ce5540660b837f"
+}
