@@ -1,0 +1,38 @@
+# WebClaw KR benchmark configuration.
+#
+# Copy this file to config.local.json and fill in your values.
+# config.local.json is gitignored — never commit real secrets.
+{
+  "// bus":        "DureClaw Phoenix-Channel WebSocket bus (ws://host:port or wss://...)",
+  "bus":           "ws://localhost:4000",
+
+  "// token":      "Bus auth token",
+  "token":         "REPLACE_ME",
+
+  "// work_key":   "Phoenix channel topic work key",
+  "work_key":      "REPLACE_ME",
+
+  "// node_name":  "Target webclaw node name (must match what the extension registered as)",
+  "node_name":     "webclaw@chrome-1",
+
+  "// brain_url":  "Master brain LLM endpoint (base URL; /brain/exec is appended)",
+  "brain_url":     "http://localhost:8000",
+
+  "// brain_token":"Brain auth bearer token (empty string if none)",
+  "brain_token":   "",
+
+  "// openai_key": "OpenAI API key for WebJudge evaluation (o4-mini recommended)",
+  "openai_key":    "REPLACE_ME",
+
+  "// eval_model": "LLM backbone for WebJudge",
+  "eval_model":    "o4-mini",
+
+  "// output_dir": "Where trajectories are written",
+  "output_dir":    "./data/kr/trajectories",
+
+  "// max_steps":  "Maximum actions per task before giving up",
+  "max_steps":     30,
+
+  "// step_timeout": "Seconds to wait per webclaw action",
+  "step_timeout":  60
+}
