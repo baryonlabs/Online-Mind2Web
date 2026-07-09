@@ -1,0 +1,9 @@
+{
+  "website": "https://help.toss.im",
+  "task_description": "토스 고객지원 페이지에서 '송금 취소' 관련 도움말 페이지를 열어, 송금 취소 조건과 절차를 확인하라.",
+  "reference_length": 6,
+  "domain": "Other",
+  "difficulty": "easy",
+  "baryon_bundle": "support",
+  "task_id": "45b71e72cb0ce00bfce7a32404146858"
+}

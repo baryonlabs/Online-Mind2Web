@@ -1,0 +1,9 @@
+{
+  "website": "https://fsc.go.kr",
+  "task_description": "금융위원회 웹사이트에서 '디지털 금융' 관련 최근 보도자료 중 첫 번째 상세 페이지를 열어라.",
+  "reference_length": 7,
+  "domain": "Finance & Investment",
+  "difficulty": "medium",
+  "baryon_bundle": "finance",
+  "task_id": "66f0543013d5800db0fff94948dfb57f"
+}

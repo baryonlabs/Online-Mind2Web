@@ -1,0 +1,9 @@
+{
+  "website": "https://www.vercel.com",
+  "task_description": "Vercel 웹사이트에서 'Edge Functions' 문서 페이지를 열어, 지원 리전 목록을 확인하라.",
+  "reference_length": 7,
+  "domain": "Technology",
+  "difficulty": "medium",
+  "baryon_bundle": "operator",
+  "task_id": "3a72a444f9d585d7dee0f510d5f7c9e7"
+}

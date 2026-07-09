@@ -1,0 +1,9 @@
+{
+  "website": "https://www.court.go.kr",
+  "task_description": "대법원 종합법률정보에서 '가사소송법'을 검색하고, 검색 결과 중 현행 법률의 조문 목록 페이지를 열어라.",
+  "reference_length": 8,
+  "domain": "Government & Services",
+  "difficulty": "medium",
+  "baryon_bundle": "legal",
+  "task_id": "5753fb5999c7aa0ae30440c2a70bc1af"
+}

@@ -1,0 +1,9 @@
+{
+  "website": "https://www.atlassian.com",
+  "task_description": "Atlassian(Jira) 웹사이트에서 '스프린트 플래닝' 기능 소개 페이지를 열어, Agile 스프린트 계획 기능을 확인하라.",
+  "reference_length": 7,
+  "domain": "Technology",
+  "difficulty": "medium",
+  "baryon_bundle": "product",
+  "task_id": "be47452b3ad8cb13a0100e649e097d39"
+}

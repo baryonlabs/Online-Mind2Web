@@ -1,0 +1,9 @@
+{
+  "website": "https://www.edwith.org",
+  "task_description": "edwith(이듬)에서 '웹 프로그래밍' 강좌를 검색하고, 검색 결과 중 무료 강좌 중 가장 수강생이 많은 강좌의 상세 페이지를 열어라.",
+  "reference_length": 7,
+  "domain": "Education",
+  "difficulty": "medium",
+  "baryon_bundle": "education",
+  "task_id": "0260c4a558d78073f4de579601dc52f9"
+}

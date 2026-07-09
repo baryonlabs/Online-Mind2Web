@@ -6,10 +6,10 @@
 
 원본 Online-Mind2Web이 영어권 136개 글로벌 웹사이트 300개 태스크로 구성되어 있는 것과 달리, 이 확장은 한국 사용자가 실제로 사용하는 주요 웹사이트들을 추가하여 웹 에이전트의 한국 환경 대응 능력을 평가합니다.
 
-- **태스크 수**: 136개
-- **고유 웹사이트 수**: 64개
+- **태스크 수**: 222개
+- **고유 웹사이트 수**: 104개
 - **도메인**: 원본 12개 도메인 분류를 그대로 따름
-- **Baryon 꾸러미 매핑**: [Baryon Desktop](https://desktop.baryon.ai/packages.html)의 업무별 꾸러미에 대응하는 태스크 포함 (`baryon_bundle` 필드로 추적)
+- **Baryon 꾸러미 매핑**: [Baryon Desktop](https://desktop.baryon.ai/packages.html)의 19개 업무별 꾸러미에 대응 (`baryon_bundle` 필드로 추적)
 - **스키마**: 원본 v2 스키마(`online-mind2web-v2`)와 호환
 
 ## 디렉토리 구조
@@ -40,15 +40,15 @@ data/kr/
 ### 도메인별
 | 도메인 | 태스크 수 |
 |---|---|
-| Education | 18 |
-| Government & Services | 16 |
-| Shopping & E-Commerce | 15 |
-| Other | 13 |
-| Travel & Transportation | 11 |
-| Technology | 11 |
-| Jobs & Careers | 11 |
-| Finance & Investment | 11 |
-| Entertainment & Media | 9 |
+| Education | 36 |
+| Government & Services | 32 |
+| Technology | 28 |
+| Other | 23 |
+| Shopping & E-Commerce | 23 |
+| Travel & Transportation | 18 |
+| Jobs & Careers | 15 |
+| Finance & Investment | 15 |
+| Entertainment & Media | 11 |
 | Housing & Real Estate | 8 |
 | Health & Medical | 7 |
 | Food & Recipes | 6 |
@@ -56,9 +56,9 @@ data/kr/
 ### 난이도별
 | 난이도 | 태스크 수 | 기준 |
 |---|---|---|
-| easy | 27 | reference_length ≤ 5 |
-| medium | 93 | 6 ≤ reference_length ≤ 10 |
-| hard | 16 | reference_length ≥ 11 |
+| easy | 47 | reference_length ≤ 5 |
+| medium | 156 | 6 ≤ reference_length ≤ 10 |
+| hard | 19 | reference_length ≥ 11 |
 
 ### 웹사이트별 (상위)
 | 웹사이트 | 태스크 수 | 도메인 |
@@ -78,25 +78,27 @@ data/kr/
 ### Baryon 꾸러미 매핑
 [Baryon Desktop](https://desktop.baryon.ai/packages.html)의 업무별 꾸러미에 대응하는 태스크들. 각 태스크의 `baryon_bundle` 필드로 원본 꾸러미 slug를 추적.
 
-| Baryon 꾸러미 | 태스크 수 | 대표 사이트 |
-|---|---|---|
-| legal (법무) | 3 | law.go.kr |
-| tax (세무) | 3 | nts.go.kr, hometax.go.kr |
-| finance (재무) | 3 | bok.or.kr, fss.or.kr |
-| sales (영업) | 2 | mangoplate.com |
-| marketing (마케팅) | 3 | ads.google.com, business.facebook.com |
-| support (고객지원) | 3 | kt.com, skt.com, help.naver.com |
-| ecommerce (이커머스운영) | 4 | coupang.com, gmarket.co.kr, smartstore.naver.com |
-| logistics (물류) | 3 | cjlogistics.com, lottelogistics.com |
-| translation (번역) | 3 | dict.naver.com, terms.naver.com |
-| product (제품기획) | 2 | figma.com |
-| research (연구) | 4 | riss.kr, dbpia.co.kr, scienceon.kr |
-| hr (인사) | 2 | saramin.co.kr, jobkorea.co.kr |
-| design (디자인) | 3 | behance.net, figma.com, unsplash.com |
-| data (데이터분석) | 4 | kosis.kr, data.go.kr |
-| student (학생) | 3 | acmicpc.net, inflearn.com |
-| education (교육/이러닝) | 2 | kmooc.kr |
-| operator (운영자) | 3 | aws.amazon.com, cloudflare.com, vercel.com |
+| Baryon 꾸러미 | 태스크 수 | 사이트 수 | 대표 사이트 |
+|---|---|---|---|
+| data (데이터분석) | 8 | 4 | data.go.kr, kosis.kr, bigdata.go.kr |
+| design (디자인) | 7 | 6 | figma.com, coolors.co, behance.net |
+| dev (개발) | 6 | 5 | github.com, stackoverflow.com, docs.python.org |
+| docs (사내문서분석) | 4 | 4 | law.go.kr, archives.go.kr, kyobobook.co.kr |
+| ecommerce (이커머스운영) | 9 | 6 | coupang.com, sell.smartstore.naver.com, selling.kakao.com |
+| education (교육/이러닝) | 6 | 3 | kmooc.kr, edwith.org, inflearn.com |
+| finance (재무) | 7 | 4 | bok.or.kr, fss.or.kr, kidi.or.kr |
+| hr (인사) | 6 | 4 | saramin.co.kr, jobkorea.co.kr, indeed.com |
+| legal (법무) | 8 | 3 | law.go.kr, court.go.kr, klri.re.kr |
+| logistics (물류) | 8 | 4 | cjlogistics.com, lottelogistics.com, epost.go.kr |
+| marketing (마케팅) | 8 | 6 | ads.google.com, business.facebook.com, tistory.com |
+| operator (운영자) | 8 | 5 | cloudflare.com, amazonaws.com, vercel.com |
+| product (제품기획) | 6 | 5 | figma.com, producthunt.com, betterworks.com |
+| research (연구) | 9 | 5 | riss.kr, dbpia.co.kr, scienceon.kr |
+| sales (영업) | 6 | 4 | tripadvisor.co.kr, mangoplate.com, crm.withncorp.com |
+| student (학생) | 8 | 4 | acmicpc.net, inflearn.com, programmers.co.kr |
+| support (고객지원) | 8 | 6 | kt.com, skt.com, help.coupang.com |
+| tax (세무) | 7 | 3 | nts.go.kr, hometax.go.kr, elinf.co.kr |
+| translation (번역) | 7 | 3 | dict.naver.com, terms.naver.com, dict.daum.net |
 
 분포 통계 실행:
 ```bash

@@ -1,0 +1,9 @@
+{
+  "website": "https://www.amazonaws.com",
+  "task_description": "AWS 웹사이트에서 S3 요금 페이지를 열어, 서울 리전의 표준 스토리지 100GB 월별 요금을 확인하라.",
+  "reference_length": 8,
+  "domain": "Technology",
+  "difficulty": "medium",
+  "baryon_bundle": "operator",
+  "task_id": "599b648278ceb52d25dc64bcf2543b25"
+}

@@ -1,0 +1,9 @@
+{
+  "website": "https://www.indeed.com",
+  "task_description": "Indeed에서 '채용 담당자' 직무 채용 공고를 검색하고, 검색 결과 중 서울 근무, 정규직 조건의 첫 번째 공고 상세 페이지를 열어라.",
+  "reference_length": 8,
+  "domain": "Jobs & Careers",
+  "difficulty": "medium",
+  "baryon_bundle": "hr",
+  "task_id": "87aae5c9c0ac96afb757b635dd338f70"
+}

@@ -1,0 +1,9 @@
+{
+  "website": "https://dict.naver.com",
+  "task_description": "네이버 사전에서 '한자 사전'을 열어, '愛'의 음과 뜻, 관련 단어를 확인할 수 있는 상세 페이지를 열어라.",
+  "reference_length": 5,
+  "domain": "Education",
+  "difficulty": "easy",
+  "baryon_bundle": "translation",
+  "task_id": "c3b9add26860880b5a787569318bd851"
+}

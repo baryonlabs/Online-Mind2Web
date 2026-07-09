@@ -1,0 +1,9 @@
+{
+  "website": "https://www.klogistics.com",
+  "task_description": "한진웹사이트에서 운송장 조회 페이지를 열어, 운송장 번호 입력 필드를 확인하고 배송 추적 화면을 열어라.",
+  "reference_length": 7,
+  "domain": "Travel & Transportation",
+  "difficulty": "medium",
+  "baryon_bundle": "logistics",
+  "task_id": "738903dab832d38ab86943ca258fd159"
+}

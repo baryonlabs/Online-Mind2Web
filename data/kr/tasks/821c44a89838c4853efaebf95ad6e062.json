@@ -1,0 +1,9 @@
+{
+  "website": "https://arxiv.org",
+  "task_description": "arXiv에서 'large language model'을 검색하고, 검색 결과 중 최근 1개월 이내에 게시된 논문 중 첫 번째 논문의 abstract 페이지를 열어라.",
+  "reference_length": 7,
+  "domain": "Education",
+  "difficulty": "medium",
+  "baryon_bundle": "research",
+  "task_id": "821c44a89838c4853efaebf95ad6e062"
+}

@@ -1,0 +1,9 @@
+{
+  "website": "https://docs.python.org",
+  "task_description": "Python 공식 문서에서 'asyncio' 모듈 페이지를 열어, 비동기 I/O 관련 API 목록을 확인하라.",
+  "reference_length": 6,
+  "domain": "Technology",
+  "difficulty": "easy",
+  "baryon_bundle": "dev",
+  "task_id": "47cd2db8100e5269f43435ec4a0efa5e"
+}

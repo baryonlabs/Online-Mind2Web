@@ -1,0 +1,9 @@
+{
+  "website": "https://github.com",
+  "task_description": "GitHub에서 'web-agent' 키워드로 퍼블릭 저장소를 검색하고, 검색 결과 중 가장 star 수가 많은 저장소의 상세 페이지를 열어라.",
+  "reference_length": 6,
+  "domain": "Technology",
+  "difficulty": "easy",
+  "baryon_bundle": "dev",
+  "task_id": "3aea3ca0c6e5ee99a12612070e2ecb94"
+}

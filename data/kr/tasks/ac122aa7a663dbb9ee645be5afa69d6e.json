@@ -1,0 +1,9 @@
+{
+  "website": "https://www.index.go.kr",
+  "task_description": "국가지표체계에서 '청년 실업률' 지표를 검색하고, 최근 5년간 연도별 청년 실업률 추이 데이터 조회 페이지를 열어라.",
+  "reference_length": 9,
+  "domain": "Government & Services",
+  "difficulty": "medium",
+  "baryon_bundle": "data",
+  "task_id": "ac122aa7a663dbb9ee645be5afa69d6e"
+}

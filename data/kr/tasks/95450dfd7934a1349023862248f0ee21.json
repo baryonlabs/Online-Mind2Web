@@ -1,0 +1,9 @@
+{
+  "website": "https://www.lguplus.com",
+  "task_description": "LG유플러스 고객지원 페이지에서 '요금제 변경' 안내 페이지를 열어, 5G 프리미엄 요금제의 월정액과 포함 데이터를 확인하라.",
+  "reference_length": 8,
+  "domain": "Other",
+  "difficulty": "medium",
+  "baryon_bundle": "support",
+  "task_id": "95450dfd7934a1349023862248f0ee21"
+}

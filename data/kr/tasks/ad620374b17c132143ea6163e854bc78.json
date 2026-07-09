@@ -1,0 +1,9 @@
+{
+  "website": "https://www.riss.kr",
+  "task_description": "RISS에서 '자율주행'을 검색하고, 검색 결과 중 학술지 논문 탭의 첫 번째 논문 상세 페이지를 열어, DOI와 인용 수를 확인하라.",
+  "reference_length": 8,
+  "domain": "Education",
+  "difficulty": "medium",
+  "baryon_bundle": "research",
+  "task_id": "ad620374b17c132143ea6163e854bc78"
+}

@@ -1,0 +1,9 @@
+{
+  "website": "https://admin.shopify.com",
+  "task_description": "Shopify 관리자 도움말에서 '결제 설정' 안내 페이지를 열어, 한국 결제 게이트웨이 연동 방법을 확인하라.",
+  "reference_length": 9,
+  "domain": "Shopping & E-Commerce",
+  "difficulty": "medium",
+  "baryon_bundle": "ecommerce",
+  "task_id": "98b9b51989aaf5c3c2e5ade2455724bc"
+}

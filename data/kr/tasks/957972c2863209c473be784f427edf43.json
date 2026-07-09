@@ -1,0 +1,9 @@
+{
+  "website": "https://www.programmers.co.kr",
+  "task_description": "프로그래머스에서 'SQL' 문제 중 Lv.2 난이도인 문제의 첫 번째 상세 페이지를 열어, 문제 설명을 확인하라.",
+  "reference_length": 7,
+  "domain": "Education",
+  "difficulty": "medium",
+  "baryon_bundle": "student",
+  "task_id": "957972c2863209c473be784f427edf43"
+}

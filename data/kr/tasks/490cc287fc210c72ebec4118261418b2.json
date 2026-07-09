@@ -1,0 +1,9 @@
+{
+  "website": "https://sell.smartstore.naver.com",
+  "task_description": "네이버 스마트스토어 판매자 센터에서 '주문 관리' 페이지를 열어, 최근 7일 이내 결제 완료된 주문 목록을 확인하라.",
+  "reference_length": 8,
+  "domain": "Shopping & E-Commerce",
+  "difficulty": "medium",
+  "baryon_bundle": "ecommerce",
+  "task_id": "490cc287fc210c72ebec4118261418b2"
+}

@@ -1,0 +1,9 @@
+{
+  "website": "https://www.edwith.org",
+  "task_description": "edwith에서 '데이터 분석' 강좌를 검색하고, 검색 결과 중 부스트코스 태그가 달린 강좌의 첫 번째 상세 페이지를 열어라.",
+  "reference_length": 7,
+  "domain": "Education",
+  "difficulty": "medium",
+  "baryon_bundle": "education",
+  "task_id": "c0e263b7f3fca6ade3d0a105693abcd4"
+}

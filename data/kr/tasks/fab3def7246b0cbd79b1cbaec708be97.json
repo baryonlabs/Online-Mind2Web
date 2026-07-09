@@ -1,0 +1,9 @@
+{
+  "website": "https://stackoverflow.com",
+  "task_description": "Stack Overflow에서 'pandas dataframe merge'를 검색하고, 검색 결과 중 가장 추천수가 많은 질문의 상세 페이지를 열어라.",
+  "reference_length": 6,
+  "domain": "Technology",
+  "difficulty": "easy",
+  "baryon_bundle": "dev",
+  "task_id": "fab3def7246b0cbd79b1cbaec708be97"
+}

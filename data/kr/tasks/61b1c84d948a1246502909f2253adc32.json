@@ -1,0 +1,9 @@
+{
+  "website": "https://www.mangoplate.com",
+  "task_description": "망고플레이트에서 서울특별시 마포구 홍대 근처 '카페'를 검색하고, 검색 결과 중 평점 4점 이상인 카페의 첫 번째 상세 페이지를 열어라.",
+  "reference_length": 7,
+  "domain": "Shopping & E-Commerce",
+  "difficulty": "medium",
+  "baryon_bundle": "sales",
+  "task_id": "61b1c84d948a1246502909f2253adc32"
+}

@@ -1,0 +1,9 @@
+{
+  "website": "https://www.fss.or.kr",
+  "task_description": "금융감독원 웹사이트에서 '금융사고 피해구제' 안내 페이지를 열어, 피해구제 신청 절차와 필요 서류를 확인하라.",
+  "reference_length": 8,
+  "domain": "Finance & Investment",
+  "difficulty": "medium",
+  "baryon_bundle": "finance",
+  "task_id": "7806ec988a8cd3d04c0321f92a104079"
+}

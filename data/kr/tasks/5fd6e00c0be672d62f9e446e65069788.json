@@ -1,0 +1,9 @@
+{
+  "website": "https://github.com",
+  "task_description": "GitHub에서 'DureClaw/webclaw' 저장소의 README 페이지를 열어, 최근 커밋 5개를 확인하라.",
+  "reference_length": 5,
+  "domain": "Technology",
+  "difficulty": "easy",
+  "baryon_bundle": "dev",
+  "task_id": "5fd6e00c0be672d62f9e446e65069788"
+}
