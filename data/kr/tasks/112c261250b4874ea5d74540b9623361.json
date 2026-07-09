@@ -1,0 +1,9 @@
+{
+  "website": "https://www.hometax.go.kr",
+  "task_description": "홈택스에서 '지방세' 안내 페이지를 열어, 취득세율과 납부 기한을 확인할 수 있는 페이지를 열어라.",
+  "reference_length": 8,
+  "domain": "Government & Services",
+  "difficulty": "medium",
+  "baryon_bundle": "tax",
+  "task_id": "112c261250b4874ea5d74540b9623361"
+}

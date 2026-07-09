@@ -1,0 +1,9 @@
+{
+  "website": "https://www.coupang.com",
+  "task_description": "쿠팡에서 '아기 기저귀'를 검색하고, 검색 결과 중 정기배송 가능한 상품 중 가장 저렴한 상품을 장바구니에 추가하라.",
+  "reference_length": 7,
+  "domain": "Shopping & E-Commerce",
+  "difficulty": "medium",
+  "baryon_bundle": "ecommerce",
+  "task_id": "5e2d891201fdcb3a4d3dc4d76ece0035"
+}

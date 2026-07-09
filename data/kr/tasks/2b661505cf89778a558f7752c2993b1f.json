@@ -1,0 +1,9 @@
+{
+  "website": "https://www.law.go.kr",
+  "task_description": "국가법령정보센터에서 '개인정보보호법'을 검색하여, 제15조(개인정보의 수집·이용)의 조문 본문과 관련 부령을 확인할 수 있는 페이지를 열어라.",
+  "reference_length": 9,
+  "domain": "Government & Services",
+  "difficulty": "medium",
+  "baryon_bundle": "legal",
+  "task_id": "2b661505cf89778a558f7752c2993b1f"
+}

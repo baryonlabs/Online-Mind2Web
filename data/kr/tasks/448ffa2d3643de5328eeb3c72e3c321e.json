@@ -1,0 +1,9 @@
+{
+  "website": "https://terms.naver.com",
+  "task_description": "네이버 용어사전에서 '클라우드 컴퓨팅'을 검색하고, IT/컴퓨터 분야 사전 중 가장 추천수가 많은 항목의 상세 페이지를 열어라.",
+  "reference_length": 7,
+  "domain": "Education",
+  "difficulty": "medium",
+  "baryon_bundle": "translation",
+  "task_id": "448ffa2d3643de5328eeb3c72e3c321e"
+}

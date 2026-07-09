@@ -1,0 +1,9 @@
+{
+  "website": "https://browse.gmarket.co.kr",
+  "task_description": "G마케이트에서 '가습기'를 검색하고, 검색 결과 중 무료배송 상품 중 가격이 3만원 이하이고 스티치 등급이 높은 상품의 첫 번째 상세 페이지를 열어라.",
+  "reference_length": 9,
+  "domain": "Shopping & E-Commerce",
+  "difficulty": "medium",
+  "baryon_bundle": "ecommerce",
+  "task_id": "3a5aaaa8e777a1409acef33a986304d1"
+}

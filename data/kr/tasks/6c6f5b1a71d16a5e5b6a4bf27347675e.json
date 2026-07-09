@@ -1,0 +1,9 @@
+{
+  "website": "https://www.kyobobook.co.kr",
+  "task_description": "교보문고 웹사이트에서 '영업' 관련 도서를 검색하고, 검색 결과 중 베스트셀러 순위 1위 도서의 상세 페이지를 열어라.",
+  "reference_length": 6,
+  "domain": "Shopping & E-Commerce",
+  "difficulty": "easy",
+  "baryon_bundle": "sales",
+  "task_id": "6c6f5b1a71d16a5e5b6a4bf27347675e"
+}

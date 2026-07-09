@@ -1,0 +1,9 @@
+{
+  "website": "https://www.data.go.kr",
+  "task_description": "공공데이터포털에서 '대기오염' 키워드로 API를 검색하고, 검색 결과 중 조회수가 가장 높은 API의 상세 페이지를 열어, 제공 기관을 확인하라.",
+  "reference_length": 8,
+  "domain": "Government & Services",
+  "difficulty": "medium",
+  "baryon_bundle": "data",
+  "task_id": "61abee4d72bc9efff766316c92b1c199"
+}

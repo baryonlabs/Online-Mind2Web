@@ -1,0 +1,9 @@
+{
+  "website": "https://www.tripadvisor.co.kr",
+  "task_description": "트립어드바이저에서 서울 '호텔' 중 5성급 호텔의 리뷰 중 가장 추천수가 많은 리뷰의 상세 페이지를 열어라.",
+  "reference_length": 8,
+  "domain": "Travel & Transportation",
+  "difficulty": "medium",
+  "baryon_bundle": "sales",
+  "task_id": "ea0b0e56a6316b730dcf052dffa4e035"
+}

@@ -1,0 +1,9 @@
+{
+  "website": "https://dict.daum.net",
+  "task_description": "다음 사전에서 '중국어 사전'을 열어, '你好'의 병음과 번역, 예문이 포함된 상세 페이지를 열어라.",
+  "reference_length": 6,
+  "domain": "Education",
+  "difficulty": "easy",
+  "baryon_bundle": "translation",
+  "task_id": "b8b4b8afba1c964045a01b86a2529596"
+}

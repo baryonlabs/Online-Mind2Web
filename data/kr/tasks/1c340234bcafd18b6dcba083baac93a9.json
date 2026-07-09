@@ -1,0 +1,9 @@
+{
+  "website": "https://www.skt.com",
+  "task_description": "SKT 고객지원 페이지에서 '휴대폰 분실 신고' 안내 페이지를 열어, 분실 신고 절차의 첫 단계를 확인하라.",
+  "reference_length": 7,
+  "domain": "Other",
+  "difficulty": "medium",
+  "baryon_bundle": "support",
+  "task_id": "1c340234bcafd18b6dcba083baac93a9"
+}

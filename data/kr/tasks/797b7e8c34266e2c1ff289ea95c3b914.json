@@ -1,0 +1,9 @@
+{
+  "website": "https://www.mangoplate.com",
+  "task_description": "망고플레이트에서 서울특별시 강남구 삼성동 근처 식당 중 평점 4점 이상인 식당의 첫 번째 상세 페이지를 열어, 리뷰와 영업시간을 확인하라.",
+  "reference_length": 7,
+  "domain": "Shopping & E-Commerce",
+  "difficulty": "medium",
+  "baryon_bundle": "sales",
+  "task_id": "797b7e8c34266e2c1ff289ea95c3b914"
+}

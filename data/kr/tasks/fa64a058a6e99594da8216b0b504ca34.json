@@ -1,0 +1,9 @@
+{
+  "website": "https://www.coupang.com",
+  "task_description": "쿠팡에서 '스마트워치'를 검색하고, 검색 결과 중 로켓배송 가능한 상품 중 가격 5만원 이하, 별점 4점 이상인 상품의 첫 번째 상세 페이지를 열어라.",
+  "reference_length": 8,
+  "domain": "Shopping & E-Commerce",
+  "difficulty": "medium",
+  "baryon_bundle": "ecommerce",
+  "task_id": "fa64a058a6e99594da8216b0b504ca34"
+}

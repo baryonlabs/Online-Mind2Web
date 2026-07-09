@@ -1,0 +1,9 @@
+{
+  "website": "https://www.cjlogistics.com",
+  "task_description": "CJ대한통운 웹사이트에서 택배 요금 계산 페이지를 열어, 서울에서 부산까지 3kg 소포의 배송 요금을 조회하는 화면을 확인하라.",
+  "reference_length": 8,
+  "domain": "Travel & Transportation",
+  "difficulty": "medium",
+  "baryon_bundle": "logistics",
+  "task_id": "16dd4b1b4a9f1eadd2ba81f4c659d7ba"
+}

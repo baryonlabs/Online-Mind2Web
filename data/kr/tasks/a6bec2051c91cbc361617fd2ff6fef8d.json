@@ -1,0 +1,9 @@
+{
+  "website": "https://selling.kakao.com",
+  "task_description": "카카오스타일(선물하기/쇼핑하기) 판매자 센터에서 '상품 등록 가이드' 페이지를 열어, 필수 입력 항목을 확인하라.",
+  "reference_length": 8,
+  "domain": "Shopping & E-Commerce",
+  "difficulty": "medium",
+  "baryon_bundle": "ecommerce",
+  "task_id": "a6bec2051c91cbc361617fd2ff6fef8d"
+}

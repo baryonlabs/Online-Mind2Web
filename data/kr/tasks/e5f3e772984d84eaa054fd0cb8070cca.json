@@ -1,0 +1,9 @@
+{
+  "website": "https://pypi.org",
+  "task_description": "PyPI에서 'fastapi' 패키지의 상세 페이지를 열어, 최신 버전과 의존성을 확인하라.",
+  "reference_length": 5,
+  "domain": "Technology",
+  "difficulty": "easy",
+  "baryon_bundle": "dev",
+  "task_id": "e5f3e772984d84eaa054fd0cb8070cca"
+}

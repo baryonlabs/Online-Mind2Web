@@ -1,0 +1,9 @@
+{
+  "website": "https://www.amazonaws.com",
+  "task_description": "AWS 웹사이트에서 EC2 요금 페이지를 열어, 서울 리전의 t3.medium 인스턴스 온디맨드 시간당 요금을 확인하라.",
+  "reference_length": 8,
+  "domain": "Technology",
+  "difficulty": "medium",
+  "baryon_bundle": "operator",
+  "task_id": "32e0e9d2ee1285ea241fd767122da6ef"
+}

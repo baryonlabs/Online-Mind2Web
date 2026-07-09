@@ -1,0 +1,9 @@
+{
+  "website": "https://www.docker.com",
+  "task_description": "Docker 웹사이트에서 'Docker Hub' 요금제 페이지를 열어, Personal 플랜에서 제공하는 비공개 저장소 개수를 확인하라.",
+  "reference_length": 7,
+  "domain": "Technology",
+  "difficulty": "medium",
+  "baryon_bundle": "operator",
+  "task_id": "804f2727ca28349da5658a6c56771896"
+}

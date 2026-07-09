@@ -1,0 +1,9 @@
+{
+  "website": "https://www.law.go.kr",
+  "task_description": "국가법령정보센터에서 '근로기준법' 전문을 열어, 제5장(임금)의 전체 조문 목록을 확인하라.",
+  "reference_length": 8,
+  "domain": "Government & Services",
+  "difficulty": "medium",
+  "baryon_bundle": "docs",
+  "task_id": "1c30a88ea9d61b29b1639602d3565337"
+}

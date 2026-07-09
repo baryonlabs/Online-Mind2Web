@@ -1,0 +1,9 @@
+{
+  "website": "https://www.elinf.co.kr",
+  "task_description": "전자세금계산서 포털(e신고인포)에서 세금계산서 발급 안내 페이지를 열어, 전자세금계산서 발급 절차를 확인하라.",
+  "reference_length": 7,
+  "domain": "Government & Services",
+  "difficulty": "medium",
+  "baryon_bundle": "tax",
+  "task_id": "0364761d5aed167d938ddf867c76f698"
+}

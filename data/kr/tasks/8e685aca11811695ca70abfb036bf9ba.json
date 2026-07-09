@@ -1,0 +1,9 @@
+{
+  "website": "https://www.kmooc.kr",
+  "task_description": "K-MOOC에서 '데이터 과학' 강좌를 검색하고, 검색 결과 중 자막이 한국어인 강좌 중 첫 번째 상세 페이지를 열어라.",
+  "reference_length": 8,
+  "domain": "Education",
+  "difficulty": "medium",
+  "baryon_bundle": "education",
+  "task_id": "8e685aca11811695ca70abfb036bf9ba"
+}

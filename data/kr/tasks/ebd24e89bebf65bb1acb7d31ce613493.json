@@ -1,0 +1,9 @@
+{
+  "website": "https://dict.naver.com",
+  "task_description": "네이버 사전에서 'artificial intelligence'를 영한 사전으로 검색하고, 첫 번째 검색 결과의 상세 정의와 예문 페이지를 열어라.",
+  "reference_length": 5,
+  "domain": "Education",
+  "difficulty": "easy",
+  "baryon_bundle": "translation",
+  "task_id": "ebd24e89bebf65bb1acb7d31ce613493"
+}

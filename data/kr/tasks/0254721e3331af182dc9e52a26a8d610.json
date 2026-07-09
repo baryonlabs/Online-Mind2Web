@@ -1,0 +1,9 @@
+{
+  "website": "https://www.klri.re.kr",
+  "task_description": "한국법제연구원 웹사이트에서 '전자문서법'을 검색하고, 검색 결과 중 현행 법령의 상세 페이지를 열어, 최근 개정 내용을 확인하라.",
+  "reference_length": 9,
+  "domain": "Government & Services",
+  "difficulty": "medium",
+  "baryon_bundle": "legal",
+  "task_id": "0254721e3331af182dc9e52a26a8d610"
+}

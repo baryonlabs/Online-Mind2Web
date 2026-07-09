@@ -1,0 +1,9 @@
+{
+  "website": "https://www.fss.or.kr",
+  "task_description": "금융감독원 웹사이트에서 '예금자보호법' 안내 페이지를 열어, 보호한도와 보호대상 예금의 종류를 확인하라.",
+  "reference_length": 8,
+  "domain": "Finance & Investment",
+  "difficulty": "medium",
+  "baryon_bundle": "finance",
+  "task_id": "db2e04943fb7c7a0852c36d3935fb878"
+}

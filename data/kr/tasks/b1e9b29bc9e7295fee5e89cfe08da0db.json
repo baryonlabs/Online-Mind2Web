@@ -1,0 +1,9 @@
+{
+  "website": "https://www.hometax.go.kr",
+  "task_description": "홈택스에서 '종합소득세' 신고 페이지를 열어, 프리랜서/사업소득자 신고 시 필요한 필수 입력 항목을 확인하라.",
+  "reference_length": 9,
+  "domain": "Government & Services",
+  "difficulty": "medium",
+  "baryon_bundle": "tax",
+  "task_id": "b1e9b29bc9e7295fee5e89cfe08da0db"
+}

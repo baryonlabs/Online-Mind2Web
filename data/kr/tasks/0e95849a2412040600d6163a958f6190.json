@@ -1,0 +1,9 @@
+{
+  "website": "https://kosis.kr",
+  "task_description": "국가통계포털(KOSIS)에서 '경제활동인구조사' 통계표 중 최근 분기 실업률 데이터 조회 페이지를 열어라.",
+  "reference_length": 10,
+  "domain": "Government & Services",
+  "difficulty": "hard",
+  "baryon_bundle": "data",
+  "task_id": "0e95849a2412040600d6163a958f6190"
+}

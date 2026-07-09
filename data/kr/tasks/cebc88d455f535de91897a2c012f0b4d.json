@@ -1,0 +1,9 @@
+{
+  "website": "https://www.nts.go.kr",
+  "task_description": "국세청 웹사이트에서 '세금 납부' 안내 페이지를 열어, 근로소득 세액공제 항목 목록을 확인하라.",
+  "reference_length": 8,
+  "domain": "Government & Services",
+  "difficulty": "medium",
+  "baryon_bundle": "tax",
+  "task_id": "cebc88d455f535de91897a2c012f0b4d"
+}

@@ -1,0 +1,9 @@
+{
+  "website": "https://crm.withncorp.com",
+  "task_description": "영업관리 CRM에서 '보고서' 메뉴를 열어, 최근 1주일 이내에 작성된 영업활동 보고서 목록을 확인하라.",
+  "reference_length": 7,
+  "domain": "Jobs & Careers",
+  "difficulty": "medium",
+  "baryon_bundle": "sales",
+  "task_id": "ad36904556054f7b2564636c0ce15e03"
+}

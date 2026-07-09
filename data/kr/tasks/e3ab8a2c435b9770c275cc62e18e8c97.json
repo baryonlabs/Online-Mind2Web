@@ -1,0 +1,9 @@
+{
+  "website": "https://www.bok.or.kr",
+  "task_description": "한국은행 경제통계시스템에서 '가계부채' 관련 통계 중 최근 분기 가계대출잔액 데이터 조회 페이지를 열어라.",
+  "reference_length": 10,
+  "domain": "Finance & Investment",
+  "difficulty": "hard",
+  "baryon_bundle": "finance",
+  "task_id": "e3ab8a2c435b9770c275cc62e18e8c97"
+}

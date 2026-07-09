@@ -1,0 +1,9 @@
+{
+  "website": "https://www.npmjs.com",
+  "task_description": "npm에서 'websocket' 패키지를 검색하고, 검색 결과 중 가장 주간 다운로드 수가 많은 패키지의 상세 페이지를 열어라.",
+  "reference_length": 6,
+  "domain": "Technology",
+  "difficulty": "easy",
+  "baryon_bundle": "dev",
+  "task_id": "18357b73716dbbbea177c275f400f876"
+}

@@ -1,0 +1,9 @@
+{
+  "website": "https://www.cjlogistics.com",
+  "task_description": "CJ대한통운 웹사이트에서 '물류센터 위치' 검색 페이지를 열어, 경기도 김포시 소재 물류센터 목록을 확인하라.",
+  "reference_length": 8,
+  "domain": "Travel & Transportation",
+  "difficulty": "medium",
+  "baryon_bundle": "logistics",
+  "task_id": "4c69a24f9960850267177598932fb0b3"
+}

@@ -1,0 +1,9 @@
+{
+  "website": "https://www.netlify.com",
+  "task_description": "Netlify 웹사이트에서 요금제 페이지를 열어, Starter 플랜의 월별 대역폭 한도와 빌드 시간을 확인하라.",
+  "reference_length": 6,
+  "domain": "Technology",
+  "difficulty": "easy",
+  "baryon_bundle": "operator",
+  "task_id": "c77a2dbcde120a7078eebbc7400d414c"
+}

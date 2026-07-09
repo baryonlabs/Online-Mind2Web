@@ -1,0 +1,9 @@
+{
+  "website": "https://www.data.go.kr",
+  "task_description": "공공데이터포털에서 '코로나19 확진자' 데이터셋을 검색하고, 검색 결과 중 가장 조회수가 높은 데이터셋의 상세 페이지를 열어, 제공 형식을 확인하라.",
+  "reference_length": 8,
+  "domain": "Government & Services",
+  "difficulty": "medium",
+  "baryon_bundle": "data",
+  "task_id": "9d149a397b0c0f0f1ef1945c47e5062f"
+}

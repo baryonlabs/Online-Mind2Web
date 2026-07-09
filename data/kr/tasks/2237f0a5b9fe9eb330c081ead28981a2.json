@@ -1,0 +1,9 @@
+{
+  "website": "https://dict.daum.net",
+  "task_description": "다음 사전에서 '일본어 사전'을 열어, 'ありがとう'의 번역과 예문 상세 페이지를 열어라.",
+  "reference_length": 6,
+  "domain": "Education",
+  "difficulty": "easy",
+  "baryon_bundle": "translation",
+  "task_id": "2237f0a5b9fe9eb330c081ead28981a2"
+}

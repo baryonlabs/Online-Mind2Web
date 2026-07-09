@@ -1,0 +1,9 @@
+{
+  "website": "https://www.producthunt.com",
+  "task_description": "Product Hunt에서 'AI 도구' 카테고리의 오늘의 1위 프로덕트 상세 페이지를 열어, 기능과 평점을 확인하라.",
+  "reference_length": 6,
+  "domain": "Technology",
+  "difficulty": "easy",
+  "baryon_bundle": "product",
+  "task_id": "fb218f3d5eedd4ee52a9434d9a87dd2b"
+}

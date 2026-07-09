@@ -1,0 +1,9 @@
+{
+  "website": "https://www.dbpia.co.kr",
+  "task_description": "DBpia에서 '자연어 처리'를 검색하고, 검색 결과 중 최근 6개월 이내에 등록된 논문 중 가장 다운로드 수가 많은 논문의 상세 페이지를 열어라.",
+  "reference_length": 8,
+  "domain": "Education",
+  "difficulty": "medium",
+  "baryon_bundle": "research",
+  "task_id": "e4ab1e62c3c10928c03a9a45bfb6db32"
+}

@@ -1,0 +1,9 @@
+{
+  "website": "https://www.skt.com",
+  "task_description": "SKT 고객지원 페이지에서 휴대폰 요금제 변경 안내 페이지를 열어, 현재 가장 저렴한 5G 요금제의 월정액을 확인하라.",
+  "reference_length": 8,
+  "domain": "Other",
+  "difficulty": "medium",
+  "baryon_bundle": "support",
+  "task_id": "b4343ff99424c9a3601b6c5b914e9b44"
+}

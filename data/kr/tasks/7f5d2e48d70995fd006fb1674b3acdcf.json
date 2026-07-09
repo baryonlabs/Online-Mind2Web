@@ -1,0 +1,9 @@
+{
+  "website": "https://www.bok.or.kr",
+  "task_description": "한국은행 경제통계시스템에서 최근 분기 GDP 성장률(전기대비) 데이터를 조회할 수 있는 페이지를 열어라.",
+  "reference_length": 10,
+  "domain": "Finance & Investment",
+  "difficulty": "hard",
+  "baryon_bundle": "finance",
+  "task_id": "7f5d2e48d70995fd006fb1674b3acdcf"
+}

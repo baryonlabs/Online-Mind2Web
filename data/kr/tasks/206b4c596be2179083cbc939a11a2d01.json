@@ -1,0 +1,9 @@
+{
+  "website": "https://www.kyobobook.co.kr",
+  "task_description": "교보문고에서 '계약서 작성' 관련 도서를 검색하고, 검색 결과 중 베스트셀러 1위 도서의 목차를 확인할 수 있는 상세 페이지를 열어라.",
+  "reference_length": 7,
+  "domain": "Shopping & E-Commerce",
+  "difficulty": "medium",
+  "baryon_bundle": "docs",
+  "task_id": "206b4c596be2179083cbc939a11a2d01"
+}

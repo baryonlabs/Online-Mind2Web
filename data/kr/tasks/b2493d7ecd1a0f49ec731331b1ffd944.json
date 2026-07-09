@@ -1,0 +1,9 @@
+{
+  "website": "https://terms.naver.com",
+  "task_description": "네이버 용어사전에서 '블록체인'을 검색하고, IT/컴퓨터 분야 사전 중 첫 번째 항목의 상세 정의 페이지를 열어라.",
+  "reference_length": 6,
+  "domain": "Education",
+  "difficulty": "easy",
+  "baryon_bundle": "translation",
+  "task_id": "b2493d7ecd1a0f49ec731331b1ffd944"
+}

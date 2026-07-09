@@ -1,0 +1,9 @@
+{
+  "website": "https://www.nts.go.kr",
+  "task_description": "국세청 홈택스에서 세금계산서 진위확인 서비스 페이지를 열어, 확인 절차의 첫 단계 입력 항목을 확인하라.",
+  "reference_length": 7,
+  "domain": "Government & Services",
+  "difficulty": "medium",
+  "baryon_bundle": "tax",
+  "task_id": "fd26beb5c30a6583d8c868e496e05eb1"
+}

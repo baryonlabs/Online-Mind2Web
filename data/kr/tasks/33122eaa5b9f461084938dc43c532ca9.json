@@ -1,0 +1,9 @@
+{
+  "website": "https://www.epost.go.kr",
+  "task_description": "우체국 웹사이트에서 '국제 우편 요금' 조회 페이지를 열어, 한국에서 미국까지 1kg 소포의 요금을 확인하라.",
+  "reference_length": 9,
+  "domain": "Travel & Transportation",
+  "difficulty": "medium",
+  "baryon_bundle": "logistics",
+  "task_id": "33122eaa5b9f461084938dc43c532ca9"
+}
