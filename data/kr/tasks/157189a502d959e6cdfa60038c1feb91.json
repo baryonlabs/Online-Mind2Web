@@ -1,0 +1,8 @@
+{
+  "website": "https://www.amc.seoul.kr",
+  "task_description": "서울아산병원 웹사이트에서 건강검진 프로그램 안내 페이지를 열어, 기본 건강검진 비용과 포함 항목을 확인하라.",
+  "reference_length": 8,
+  "domain": "Health & Medical",
+  "difficulty": "medium",
+  "task_id": "157189a502d959e6cdfa60038c1feb91"
+}

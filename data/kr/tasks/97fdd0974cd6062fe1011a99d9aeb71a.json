@@ -1,0 +1,8 @@
+{
+  "website": "https://flight.naver.com",
+  "task_description": "네이버 항공권에서 김포에서 제주행 왕복 항공권을 검색하고, 다음 달 1일 출발, 3일 귀국 편 중 제주항공 항공권 중 가장 저렴한 것의 예약 페이지를 열어라.",
+  "reference_length": 10,
+  "domain": "Travel & Transportation",
+  "difficulty": "hard",
+  "task_id": "97fdd0974cd6062fe1011a99d9aeb71a"
+}

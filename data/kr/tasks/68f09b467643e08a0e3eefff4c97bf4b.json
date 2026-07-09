@@ -1,0 +1,8 @@
+{
+  "website": "https://flight.naver.com",
+  "task_description": "네이버 항공권에서 인천에서 제주행 항공권을 검색하고, 다음 주 금요일 출발, 일요일 귀국 편도 항공권 중 가장 저렴한 항공편의 예약 페이지를 열어라.",
+  "reference_length": 9,
+  "domain": "Travel & Transportation",
+  "difficulty": "medium",
+  "task_id": "68f09b467643e08a0e3eefff4c97bf4b"
+}

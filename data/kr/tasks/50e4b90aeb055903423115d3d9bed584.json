@@ -1,0 +1,8 @@
+{
+  "website": "https://finance.naver.com",
+  "task_description": "네이버 증권에서 삼성전자(005930)의 현재 주가와 최근 5일간의 일봉 차트를 보여주는 페이지를 열어라.",
+  "reference_length": 5,
+  "domain": "Finance & Investment",
+  "difficulty": "easy",
+  "task_id": "50e4b90aeb055903423115d3d9bed584"
+}

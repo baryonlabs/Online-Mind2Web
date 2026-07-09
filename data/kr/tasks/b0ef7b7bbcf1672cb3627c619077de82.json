@@ -1,0 +1,8 @@
+{
+  "website": "https://land.naver.com",
+  "task_description": "네이버 부동산에서 서울특별시 마포구 합정동 아파트 매매 검색 결과를 보고, 검색 결과 중 평당가가 가장 낮은 아파트 단지의 상세 페이지를 열어라.",
+  "reference_length": 10,
+  "domain": "Housing & Real Estate",
+  "difficulty": "hard",
+  "task_id": "b0ef7b7bbcf1672cb3627c619077de82"
+}

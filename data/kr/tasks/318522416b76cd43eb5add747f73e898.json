@@ -1,0 +1,8 @@
+{
+  "website": "https://www.coupang.com",
+  "task_description": "쿠팡에서 '치약'을 검색하고, 검색 결과 중 로켓배송 가능한 상품 중 가격이 가장 낮은 상품을 장바구니에 추가하라.",
+  "reference_length": 6,
+  "domain": "Shopping & E-Commerce",
+  "difficulty": "easy",
+  "task_id": "318522416b76cd43eb5add747f73e898"
+}

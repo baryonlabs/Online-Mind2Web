@@ -1,0 +1,8 @@
+{
+  "website": "https://www.ssg.com",
+  "task_description": "SSG에서 '냉동 피자'를 검색하고, 검색 결과 중 SSG 배송 가능한 상품 중 가격이 1만원 이하인 상품을 장바구니에 추가하라.",
+  "reference_length": 7,
+  "domain": "Shopping & E-Commerce",
+  "difficulty": "medium",
+  "task_id": "262636dbf4dffe4c7d3c6a083820de4e"
+}

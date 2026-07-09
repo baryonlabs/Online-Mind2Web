@@ -1,0 +1,8 @@
+{
+  "website": "https://land.naver.com",
+  "task_description": "네이버 부동산에서 경기도 수원시 영통구 원천동 아파트 매물 중 10억 이하, 84㎡ 이상 조건으로 검색 결과를 보여라.",
+  "reference_length": 8,
+  "domain": "Housing & Real Estate",
+  "difficulty": "medium",
+  "task_id": "98760735b8e2c498608a511883310cd7"
+}

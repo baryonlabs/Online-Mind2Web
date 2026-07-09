@@ -1,0 +1,8 @@
+{
+  "website": "https://www.wanted.co.kr",
+  "task_description": "원티드에서 '머신러닝 엔지니어' 직군 채용 공고를 검색하고, 그중 서울 근무 가능 공고를 필터링하여 첫 번째 공고의 상세 페이지를 열어라.",
+  "reference_length": 6,
+  "domain": "Jobs & Careers",
+  "difficulty": "easy",
+  "task_id": "4cbc812e5a29bb2cb2180ab438f3a129"
+}

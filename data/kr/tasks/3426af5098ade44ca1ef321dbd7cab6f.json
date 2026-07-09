@@ -1,0 +1,8 @@
+{
+  "website": "https://finance.naver.com",
+  "task_description": "네이버 증권에서 현대차(005380)의 최근 3년간 연간 배당금 지급 내역을 확인할 수 있는 페이지를 열어라.",
+  "reference_length": 8,
+  "domain": "Finance & Investment",
+  "difficulty": "medium",
+  "task_id": "3426af5098ade44ca1ef321dbd7cab6f"
+}

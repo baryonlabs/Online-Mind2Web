@@ -1,0 +1,8 @@
+{
+  "website": "https://finance.naver.com",
+  "task_description": "네이버 증권에서 시가총액 상위 10개 종목 목록 페이지를 열고, 그중 첫 번째 종목의 재무제표 요약 페이지를 열어라.",
+  "reference_length": 8,
+  "domain": "Finance & Investment",
+  "difficulty": "medium",
+  "task_id": "9c233ebf5f8bfe28f0125cf242f0840c"
+}

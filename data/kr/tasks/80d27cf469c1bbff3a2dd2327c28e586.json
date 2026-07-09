@@ -1,0 +1,8 @@
+{
+  "website": "https://www.naver.com",
+  "task_description": "네이버 건강에서 서울특별시 강남구 소재 피부과 의원을 검색하고, 검색 결과 중 별점 4점 이상인 의원 중 첫 번째의 상세 정보 페이지를 열어라.",
+  "reference_length": 7,
+  "domain": "Health & Medical",
+  "difficulty": "medium",
+  "task_id": "80d27cf469c1bbff3a2dd2327c28e586"
+}

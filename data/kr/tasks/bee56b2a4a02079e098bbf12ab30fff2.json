@@ -1,0 +1,8 @@
+{
+  "website": "https://www.credu.com",
+  "task_description": "크레듀에서 '파이썬' 기초 강좌를 검색하고, 검색 결과 중 수강생 평점 4점 이상인 강좌의 첫 번째 상세 페이지를 열어라.",
+  "reference_length": 7,
+  "domain": "Education",
+  "difficulty": "medium",
+  "task_id": "bee56b2a4a02079e098bbf12ab30fff2"
+}

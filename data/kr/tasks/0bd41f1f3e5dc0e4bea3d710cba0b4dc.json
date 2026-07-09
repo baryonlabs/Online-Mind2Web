@@ -1,0 +1,8 @@
+{
+  "website": "https://www.epeople.go.kr",
+  "task_description": "국민신문고에서 '미세먼지' 관련 민원 검색 결과를 확인하고, 최근 1개월 이내 접수된 민원 중 첫 번째의 상세 페이지를 열어라.",
+  "reference_length": 9,
+  "domain": "Government & Services",
+  "difficulty": "medium",
+  "task_id": "0bd41f1f3e5dc0e4bea3d710cba0b4dc"
+}

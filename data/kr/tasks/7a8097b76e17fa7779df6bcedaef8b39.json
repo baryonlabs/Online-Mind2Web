@@ -1,0 +1,8 @@
+{
+  "website": "https://movie.naver.com",
+  "task_description": "네이버 영화에서 2024년 개봉한 한국 영화 중 평점 9점 이상인 영화 목록을 확인하고, 그중 첫 번째 영화의 상세 페이지를 열어라.",
+  "reference_length": 9,
+  "domain": "Entertainment & Media",
+  "difficulty": "medium",
+  "task_id": "7a8097b76e17fa7779df6bcedaef8b39"
+}

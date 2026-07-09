@@ -1,0 +1,8 @@
+{
+  "website": "https://www.bustago.or.kr",
+  "task_description": "버스타고에서 서울경부 터미널에서 부산 터미널까지 내일 출발하는 고속버스 일반 등급 편도 표의 예약 가능 시간대를 확인하라.",
+  "reference_length": 11,
+  "domain": "Travel & Transportation",
+  "difficulty": "hard",
+  "task_id": "fca5362e4e6cc3765311eeedcbc4dc8d"
+}

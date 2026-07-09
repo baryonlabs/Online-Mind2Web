@@ -1,0 +1,8 @@
+{
+  "website": "https://www.coupang.com",
+  "task_description": "쿠팡에서 '무선 이어폰'을 검색하고, 검색 결과 중 가격 5만원 이하, 배송 무료인 상품 중 가장 별점이 높은 상품의 상세 페이지를 열어라.",
+  "reference_length": 7,
+  "domain": "Shopping & E-Commerce",
+  "difficulty": "medium",
+  "task_id": "813ed20755cf60a8d32514a59592bf9a"
+}

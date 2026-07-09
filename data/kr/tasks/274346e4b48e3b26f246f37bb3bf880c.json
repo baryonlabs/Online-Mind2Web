@@ -1,0 +1,8 @@
+{
+  "website": "https://www.coupang.com",
+  "task_description": "쿠팡에서 '등산 배낭 30L'을 검색하고, 검색 결과 중 별점 4점 이상, 가격 3만원 이하인 상품 중 가장 리뷰가 많은 상품의 상세 페이지를 열어라.",
+  "reference_length": 8,
+  "domain": "Shopping & E-Commerce",
+  "difficulty": "medium",
+  "task_id": "274346e4b48e3b26f246f37bb3bf880c"
+}

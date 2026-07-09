@@ -1,0 +1,8 @@
+{
+  "website": "https://www.samsunghospital.com",
+  "task_description": "삼성서울병원 웹사이트에서 오늘 진료 가능한 진료과 목록을 확인하고, 그중 정형외과 예약 페이지를 열어라.",
+  "reference_length": 9,
+  "domain": "Health & Medical",
+  "difficulty": "medium",
+  "task_id": "7e501432f0f25b3847e49903c5471962"
+}

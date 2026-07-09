@@ -1,0 +1,8 @@
+{
+  "website": "https://browse.gmarket.co.kr",
+  "task_description": "G마켓에서 '여성 여름 원피스'를 검색하고, 검색 결과 중 가격 2만원 이하, 무료배송 상품 중 가장 최근에 등록된 상품의 상세 페이지를 열어라.",
+  "reference_length": 9,
+  "domain": "Shopping & E-Commerce",
+  "difficulty": "medium",
+  "task_id": "f2c687f1c32dc8a258c0ae8878b49da2"
+}

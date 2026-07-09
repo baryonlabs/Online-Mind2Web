@@ -1,0 +1,8 @@
+{
+  "website": "https://www.credu.com",
+  "task_description": "크레듀에서 '데이터 분석' 강좌를 검색하고, 검색 결과 중 입문자용 강좌 중 수강 기간 4주 이하인 강좌의 첫 번째 상세 페이지를 열어라.",
+  "reference_length": 8,
+  "domain": "Education",
+  "difficulty": "medium",
+  "task_id": "eda8e945c3b99022fd80de1b73f3cd38"
+}

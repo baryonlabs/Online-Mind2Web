@@ -1,0 +1,8 @@
+{
+  "website": "https://comic.naver.com",
+  "task_description": "네이버 웹툰에서 '화산귀환' 웹툰의 전체 회차 목록 페이지를 열어, 최신 3개 회차의 제목을 확인하라.",
+  "reference_length": 6,
+  "domain": "Entertainment & Media",
+  "difficulty": "easy",
+  "task_id": "cf1641055dc85b7397f821c7e16bc65a"
+}

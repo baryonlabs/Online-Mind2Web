@@ -1,0 +1,8 @@
+{
+  "website": "https://movie.naver.com",
+  "task_description": "네이버 영화에서 현재 박스오피스 1위 영화의 상세 정보 페이지를 열어, 영화 줄거리와 평점을 확인하라.",
+  "reference_length": 5,
+  "domain": "Entertainment & Media",
+  "difficulty": "easy",
+  "task_id": "12f1431d34152ee7240aecccd4c0efe2"
+}
