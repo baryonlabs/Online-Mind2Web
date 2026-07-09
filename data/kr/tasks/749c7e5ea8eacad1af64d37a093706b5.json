@@ -1,0 +1,8 @@
+{
+  "website": "https://movie.naver.com",
+  "task_description": "네이버 영화에서 현재 예매율 순위 상위 5개 영화 목록을 확인하고, 그중 예매율 1위 영화의 네티즌 평점과 관람객 리뷰 페이지를 열어라.",
+  "reference_length": 8,
+  "domain": "Entertainment & Media",
+  "difficulty": "medium",
+  "task_id": "749c7e5ea8eacad1af64d37a093706b5"
+}

@@ -1,0 +1,8 @@
+{
+  "website": "https://flight.naver.com",
+  "task_description": "네이버 항공권에서 인천에서 도쿄행 항공권을 검색하고, 다음 달 15일 출발, 20일 귀국 왕복 항공권 중 가장 저렴한 항공편의 예약 페이지를 열어라.",
+  "reference_length": 10,
+  "domain": "Travel & Transportation",
+  "difficulty": "hard",
+  "task_id": "4aa6d67a576a2f03c6d376fd67e03651"
+}

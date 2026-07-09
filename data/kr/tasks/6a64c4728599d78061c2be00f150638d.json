@@ -1,0 +1,8 @@
+{
+  "website": "https://movie.naver.com",
+  "task_description": "네이버 영화에서 장르별 랭킹 페이지에서 '스릴러' 장르 1위 영화의 상세 페이지를 열어, 감독과 출연진을 확인하라.",
+  "reference_length": 8,
+  "domain": "Entertainment & Media",
+  "difficulty": "medium",
+  "task_id": "6a64c4728599d78061c2be00f150638d"
+}

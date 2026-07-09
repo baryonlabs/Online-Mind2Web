@@ -1,0 +1,8 @@
+{
+  "website": "https://map.naver.com",
+  "task_description": "네이버 지도에서 서울특별시 강남구 역삼동 주변 '카페'를 검색하고, 검색 결과 중 별점 4점 이상인 카페의 첫 번째 상세 페이지를 열어라.",
+  "reference_length": 7,
+  "domain": "Other",
+  "difficulty": "medium",
+  "task_id": "194dd2c8c10a0439fb131977a0309015"
+}

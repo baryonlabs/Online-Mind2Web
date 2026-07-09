@@ -1,0 +1,8 @@
+{
+  "website": "https://search.naver.com",
+  "task_description": "네이버에서 '다이어트 운동'을 검색하고, 검색 결과의 뷰 섹션에서 최근 1주일 이내에 작성된 블로그 포스트 중 첫 번째의 상세 페이지를 열어라.",
+  "reference_length": 6,
+  "domain": "Other",
+  "difficulty": "easy",
+  "task_id": "fed9f279a34f05f58d7c095e9f6adf8d"
+}

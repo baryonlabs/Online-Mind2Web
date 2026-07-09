@@ -1,0 +1,8 @@
+{
+  "website": "https://browse.gmarket.co.kr",
+  "task_description": "G마켓에서 '남성 구두'를 검색하고, 검색 결과 중 가격 5만원 이상 10만원 이하, 스티치 상품 중 가장 인기 있는(구매수 많은) 상품의 상세 페이지를 열어라.",
+  "reference_length": 9,
+  "domain": "Shopping & E-Commerce",
+  "difficulty": "medium",
+  "task_id": "2698853d2f858ec85b5af81b0337099a"
+}

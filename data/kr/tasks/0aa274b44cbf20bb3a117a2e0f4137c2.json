@@ -1,0 +1,8 @@
+{
+  "website": "https://search.naver.com/search.naver?query=날씨",
+  "task_description": "네이버에서 서울특별시 오늘 날씨 정보를 검색하고, 현재 기온과 미세먼지 농도를 확인할 수 있는 페이지를 열어라.",
+  "reference_length": 4,
+  "domain": "Other",
+  "difficulty": "easy",
+  "task_id": "0aa274b44cbf20bb3a117a2e0f4137c2"
+}

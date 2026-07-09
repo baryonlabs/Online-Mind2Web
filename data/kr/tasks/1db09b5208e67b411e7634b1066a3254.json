@@ -1,0 +1,8 @@
+{
+  "website": "https://www.amc.seoul.kr",
+  "task_description": "서울아산병원 웹사이트에서 강남 지역 내과 전문의 진료 예약 페이지를 열어, 내일 오전 예약 가능 시간대를 확인하라.",
+  "reference_length": 10,
+  "domain": "Health & Medical",
+  "difficulty": "hard",
+  "task_id": "1db09b5208e67b411e7634b1066a3254"
+}

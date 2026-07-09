@@ -1,0 +1,8 @@
+{
+  "website": "https://www.naver.com",
+  "task_description": "네이버 건강에서 부산광역시 소재 치과 의원 중 야간 진료 가능한 의원을 검색하고, 검색 결과의 첫 번째 의원 상세 정보 페이지를 열어라.",
+  "reference_length": 8,
+  "domain": "Health & Medical",
+  "difficulty": "medium",
+  "task_id": "e04c9cb43ed9090406933294fe50a64c"
+}

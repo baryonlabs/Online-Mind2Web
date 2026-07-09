@@ -1,0 +1,8 @@
+{
+  "website": "https://www.inflearn.com",
+  "task_description": "인프런에서 '머신러닝' 강의를 검색하고, 검색 결과 중 무료 강의 중 수강생이 가장 많은 강의의 상세 페이지를 열어라.",
+  "reference_length": 6,
+  "domain": "Education",
+  "difficulty": "easy",
+  "task_id": "056ca7366e164a240c188e8ab9952b15"
+}

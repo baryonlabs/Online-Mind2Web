@@ -1,0 +1,8 @@
+{
+  "website": "https://news.naver.com",
+  "task_description": "네이버 뉴스에서 '부동산' 토픽의 최신 기사 목록을 확인하고, 가장 최신 기사의 상세 페이지를 열어라.",
+  "reference_length": 5,
+  "domain": "Other",
+  "difficulty": "easy",
+  "task_id": "6c561c09cf45329f6cc36bca302a7bbf"
+}

@@ -1,0 +1,8 @@
+{
+  "website": "https://comic.naver.com",
+  "task_description": "네이버 웹툰에서 '일진'이라는 제목의 웹툰을 검색하고, 그 웹툰의 최신 회차 상세 페이지를 열어라.",
+  "reference_length": 6,
+  "domain": "Entertainment & Media",
+  "difficulty": "easy",
+  "task_id": "3af31df132bccb11311dff6344d0310f"
+}

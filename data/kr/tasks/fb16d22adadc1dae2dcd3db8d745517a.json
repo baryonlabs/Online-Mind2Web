@@ -1,0 +1,8 @@
+{
+  "website": "https://www.letskorail.com",
+  "task_description": "레츠코레일에서 서울역에서 부산역까지 내일 출발하는 KTX 표준열차 편도 승차권의 예약 페이지를 열어 잔여 좌석을 확인하라.",
+  "reference_length": 11,
+  "domain": "Travel & Transportation",
+  "difficulty": "hard",
+  "task_id": "fb16d22adadc1dae2dcd3db8d745517a"
+}

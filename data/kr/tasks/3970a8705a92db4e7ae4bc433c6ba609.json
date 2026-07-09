@@ -1,0 +1,8 @@
+{
+  "website": "https://finance.naver.com",
+  "task_description": "네이버 증권에서 코스피 지수의 현재 값과 최근 1개월 일봉 차트를 보여주는 페이지를 열고, 거래대금 상위 종목 페이지를 열어라.",
+  "reference_length": 7,
+  "domain": "Finance & Investment",
+  "difficulty": "medium",
+  "task_id": "3970a8705a92db4e7ae4bc433c6ba609"
+}

@@ -1,0 +1,8 @@
+{
+  "website": "https://www.inflearn.com",
+  "task_description": "인프런에서 'React' 태그가 달린 강의를 검색하고, 검색 결과 중 무료이면서 한국어 자막이 있는 강의의 첫 번째 상세 페이지를 열어라.",
+  "reference_length": 9,
+  "domain": "Education",
+  "difficulty": "medium",
+  "task_id": "c4a1a88c01393d01eaa262191f4021b0"
+}

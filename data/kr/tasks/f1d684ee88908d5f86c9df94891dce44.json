@@ -1,0 +1,8 @@
+{
+  "website": "https://finance.naver.com",
+  "task_description": "네이버 증권에서 최근 1주일간 외국인이 코스피 시장에서 순매수한 종목 순위 페이지를 열어라.",
+  "reference_length": 9,
+  "domain": "Finance & Investment",
+  "difficulty": "medium",
+  "task_id": "f1d684ee88908d5f86c9df94891dce44"
+}
